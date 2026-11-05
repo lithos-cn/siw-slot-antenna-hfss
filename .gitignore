@@ -1,0 +1,19 @@
+# HFSS generated files and autosaves
+*.aedtresults/
+*.aedt.auto
+*.aedt.lock
+*.aedt.*.lock
+*.asol
+*.tmp
+*.bak
+
+# Local notes and work files
+.local-notes/
+LOCAL_*.md
+*_local.md
+work/
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store

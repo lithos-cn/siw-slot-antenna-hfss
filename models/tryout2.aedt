@@ -1,0 +1,2997 @@
+$begin 'AnsoftProject'
+	Created='Sat Apr 11 18:39:47 2026'
+	Product='ElectronicsDesktopStudent'
+	FileOwnedByWorkbench=false
+	$begin 'Desktop'
+		Version(2025, 2)
+		InfrastructureVersion(1, 0)
+		$begin 'FactoryHeader'
+			$begin 'geometry3deditor'
+				KernelVersion(2, 0)
+				ProjectContainsGeometry3D='1'
+			$end 'geometry3deditor'
+		$end 'FactoryHeader'
+	$end 'Desktop'
+	UsesAdvancedFeatures=false
+	NextUniqueID=0
+	MoveBackwards=false
+	$begin 'HFSSEnvironment'
+		Version(1, 0)
+	$end 'HFSSEnvironment'
+	$begin 'Q3DEnvironment'
+		Version(1, 0)
+	$end 'Q3DEnvironment'
+	$begin '2DExtractorEnvironment'
+		Version(1, 0)
+	$end '2DExtractorEnvironment'
+	$begin 'Maxwell3DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell3DEnvironment'
+	$begin 'Maxwell2DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell2DEnvironment'
+	$begin 'RMxprtEnvironment'
+		Version(1, 0)
+	$end 'RMxprtEnvironment'
+	$begin 'MaxCirEnvironment'
+		Version(1, 0)
+	$end 'MaxCirEnvironment'
+	$begin 'IcepakEnvironment'
+		Version(1, 0)
+	$end 'IcepakEnvironment'
+	$begin 'NexximEnvironment'
+		Version(1, 0)
+	$end 'NexximEnvironment'
+	$begin 'SimplorerEnvironment'
+		Version(1, 0)
+	$end 'SimplorerEnvironment'
+	$begin 'SchematicEnvironment'
+		Version(1, 0)
+	$end 'SchematicEnvironment'
+	$begin 'geometry3deditor'
+		Version(1, 0)
+	$end 'geometry3deditor'
+	ReadVersion=12
+	$begin 'DesignMgrEnvironment'
+		CompInstCounter=1
+		GPortCounter=0
+		NetCounter=0
+		Alias('Ieee;Simplorer Elements\\Ieee', 'Std;Simplorer Elements\\Std', 'Basic_VHDLAMS;Simplorer Elements\\Basic Elements VHDLAMS\\Basic Elements VHDLAMS', 'Digital_Elements;Simplorer Elements\\Digital Elements\\Digital Elements', 'Transformations;Simplorer Elements\\Tools\\Transformations\\Transformations', 'HEV_VHDLAMS;Simplorer Elements\\HEV VHDLAMS\\HEV VHDLAMS', 'automotive_vda;Simplorer Elements\\VDALibs VHDLAMS\\automotive_vda', 'example_boardnet;Simplorer Elements\\VDALibs VHDLAMS\\example_boardnet', 'example_ecar;Simplorer Elements\\VDALibs VHDLAMS\\example_ecar', 'fundamentals_vda;Simplorer Elements\\VDALibs VHDLAMS\\fundamentals_vda', 'hybrid_emc_vda;Simplorer Elements\\VDALibs VHDLAMS\\hybrid_emc_vda', 'megma;Simplorer Elements\\VDALibs VHDLAMS\\megma', 'modelica_rotational;Simplorer Elements\\VDALibs VHDLAMS\\modelica_rotational', 'modelica_thermal;Simplorer Elements\\VDALibs VHDLAMS\\modelica_thermal', 'modelica_translational;Simplorer Elements\\VDALibs VHDLAMS\\modelica_translational', 'spice2vhd;Simplorer Elements\\VDALibs VHDLAMS\\spice2vhd', 'spice2vhd_devices;Simplorer Elements\\VDALibs VHDLAMS\\spice2vhd_devices', 'aircraft_electrical_vhdlams;Simplorer Elements\\Aircraft Electrical VHDLAMS\\Aircraft Electrical VHDLAMS', 'power_system_vhdlams;Simplorer Elements\\Power System VHDLAMS\\Power System VHDLAMS')
+	$end 'DesignMgrEnvironment'
+	$begin 'ProjectDatasets'
+		NextUniqueID=0
+		MoveBackwards=false
+		DatasetType='ProjectDatasetType'
+		$begin 'DatasetDefinitions'
+		$end 'DatasetDefinitions'
+	$end 'ProjectDatasets'
+	VariableOrders[0:]
+	$begin 'Definitions'
+		$begin 'Materials'
+			$begin 'vacuum'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=230
+						Green=230
+						Blue=230
+						Transparency=0.949999988079071
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permittivity='1'
+				ModTime=1499970477
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'vacuum'
+			$begin 'Rogers_5880'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				permittivity='2.2'
+				dielectric_loss_tangent='0.0009'
+				ModTime=1775903564
+				Library=''
+				LibLocation='Project'
+				ModSinceLib=false
+			$end 'Rogers_5880'
+			$begin 'pec'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=247
+						Green=242
+						Blue=232
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				conductivity='1e+30'
+				ModTime=1499970477
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'pec'
+		$end 'Materials'
+		$begin 'SurfaceMaterials'
+		$end 'SurfaceMaterials'
+		$begin 'Scripts'
+		$end 'Scripts'
+		$begin 'Symbols'
+			$begin 'HFSSDesign1'
+				ModTime=1775902963
+				Library=''
+				ModSinceLib=false
+				LibLocation='Project'
+				HighestLevel=1
+				Normalize=true
+				InitialLevels(0, 1)
+				$begin 'Graphics'
+					Rect(0, 0, 0, 0, 0.00254, 0.00254, 0.00508, 0.00508, 0, 0, 0)
+					Rect(0, 1, 0, 0, 0.000423333333333333, 0.00254, 0.000423333333333333, 0.000423333333333334, 0, 0, 0)
+				$end 'Graphics'
+			$end 'HFSSDesign1'
+		$end 'Symbols'
+		$begin 'DefInfo'
+			HFSSDesign1(1002, 0, 0, 0, '', 1775902963, '', 'HFSSDesign1', '', '', '', '', '', 'Design.bmp', '', 'Project', '', '', 1775902963, '', 0, 0)
+		$end 'DefInfo'
+		$begin 'Compdefs'
+			$begin 'HFSSDesign1'
+				Library=''
+				CircuitEnv=0
+				Refbase='U'
+				NumParts=1
+				ModSinceLib=true
+				$begin 'Properties'
+					TextProp('Representation', 'SRD', '', 'HFSSDesign1')
+					TextProp('Owner', 'SRD', '', 'HFSS')
+				$end 'Properties'
+				CompExtID=6
+				$begin 'Parameters'
+					ButtonProp('CosimDefinition', 'D', '', 'Edit', 'Edit', 40501, ButtonPropClientData())
+					MenuProp('CoSimulator', 'D', '', 'DefaultNetlist', 0)
+				$end 'Parameters'
+				$begin 'CosimDefinitions'
+					$begin 'CosimDefinition'
+						CosimulatorType=4
+						CosimDefName='DefaultNetlist'
+						IsDefinition=true
+						Connect=true
+						Data()
+						GRef()
+					$end 'CosimDefinition'
+					DefaultCosim='DefaultNetlist'
+				$end 'CosimDefinitions'
+			$end 'HFSSDesign1'
+		$end 'Compdefs'
+	$end 'Definitions'
+	DesignIDServer=2
+	MoveBackwards=false
+	$begin 'HFSSModel'
+		RepRewriteV2=true
+		Name='HFSSDesign1'
+		DesignID=0
+		'Use Advanced DC Extrapolation'=false
+		'Use Power S'=false
+		'Export FRTM After Simulation'=false
+		'Export Rays After Simulation'=false
+		'Export After Simulation'=false
+		'Allow Material Override'=false
+		'Calculate Lossy Dielectrics'=false
+		'Perform Minimal validation'=false
+		$begin 'TemperatureSettings'
+			IncludeTemperatureDependence=false
+			EnableFeedback=false
+			Temperatures(34, '22cel', 62, '22cel', 356, '22cel', 580, '22cel', 632, '22cel', 2192, '22cel')
+		$end 'TemperatureSettings'
+		ObjsEnabledForDeformation()
+		'Port Validation Settings'='Standard'
+		'Save Adaptive support files'=false
+		SolutionType='HFSS Terminal Network'
+		$begin 'DrivenOptions'
+			AutoOpen=false
+		$end 'DrivenOptions'
+		MaterialDensity=1
+		MassOfTissue=1
+		VoxelSize=1
+		TissueObjectList=-1
+		AverageSarMethod=0
+		UseAutoDCThickness=true
+		HaveZwaveSupport=true
+		SolveInsideThreshold=100000
+		$begin 'OutputVariable'
+			NextUniqueID=0
+			MoveBackwards=false
+		$end 'OutputVariable'
+		$begin 'ModelSetup'
+			$begin 'DesignDatasets'
+				NextUniqueID=0
+				MoveBackwards=false
+				DatasetType='DesignDatasetType'
+				$begin 'DatasetDefinitions'
+				$end 'DatasetDefinitions'
+			$end 'DesignDatasets'
+			VariableOrders[0:]
+			$begin 'Editor3D Doc Preferences'
+				BackgroundColorVersion=1
+				'Plane Background'=0
+				'Need Lights'=true
+				'Ambient Light'=8355711
+				'Num Lights'=1
+				Light0[4: 16777215, 0.75, -0.150000005960464, -0.629999995231628]
+				Ver=2
+			$end 'Editor3D Doc Preferences'
+			SnapMode=31
+			WorkingCS=1
+			$begin 'GeometryCore'
+				BlockVersionID=3
+				DataVersion=26
+				NativeKernel='PARASOLID'
+				NativeKernelVersionID=25
+				Units='mm'
+				ModelExtents=10000
+				InstanceID=-1
+				$begin 'ValidationOptions'
+					EntityCheckLevel='Strict'
+					IgnoreUnclassifiedObjects=false
+					SkipIntersectionChecks=false
+				$end 'ValidationOptions'
+				ContainsGeomLinkUDM=false
+				$begin 'GeometryOperations'
+					BlockVersionID=2
+					$begin 'AnsoftRangedIDServerManager'
+						$begin 'AnsoftRangedIDServer'
+							IDServerObjectTypeID=0
+							IDServerRangeMin=0
+							IDServerRangeMax=2146483647
+							NextUniqueID=2227
+							MoveBackwards=false
+						$end 'AnsoftRangedIDServer'
+						$begin 'AnsoftRangedIDServer'
+							IDServerObjectTypeID=1
+							IDServerRangeMin=2146483648
+							IDServerRangeMax=2146485547
+							NextUniqueID=2146483654
+							MoveBackwards=false
+						$end 'AnsoftRangedIDServer'
+					$end 'AnsoftRangedIDServerManager'
+					StartBackGroundFaceID=2146483648
+					$begin 'CoordinateSystems'
+					$end 'CoordinateSystems'
+					$begin 'OperandCSs'
+					$end 'OperandCSs'
+					$begin 'SubModelDefinitions'
+					$end 'SubModelDefinitions'
+					$begin 'Groups'
+					$end 'Groups'
+					$begin 'UserDefinedModels'
+					$end 'UserDefinedModels'
+					$begin 'OperandUserDefinedModels'
+					$end 'OperandUserDefinedModels'
+					$begin 'ToplevelParts'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Substrate'
+								Flags=''
+								Color='(255 255 128)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"Rogers_5880"'
+								SurfaceMaterialValue='""'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								IsSurfaceMaterialEditable=true
+								UseMaterialAppearance=false
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'PhysicsAttributes'
+								SuppressedForPhysics='False'
+								SuppressedForPhysicsEditable=true
+							$end 'PhysicsAttributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Box'
+									ID=33
+									ReferenceCoordSystemID=1
+									$begin 'BoxParameters'
+										KernelVersion=25
+										XPosition='0mm'
+										YPosition='0mm'
+										ZPosition='0mm'
+										XSize='40mm'
+										YSize='17.2mm'
+										ZSize='0.508mm'
+									$end 'BoxParameters'
+									ParentPartID=34
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=6
+											NumWires=0
+											NumLoops=6
+											NumCoedges=24
+											NumEdges=12
+											NumVertices=8
+										$end 'Topology'
+										BodyID=34
+										StartFaceID=35
+										StartEdgeID=41
+										StartVertexID=53
+										NumNewFaces=6
+										NumNewEdges=12
+										NumNewVertices=8
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+							$end 'Operations'
+							$begin 'SubregionDependencyInformation'
+								ChildSubregions[0:]
+							$end 'SubregionDependencyInformation'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Ground'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SurfaceMaterialValue='""'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								IsSurfaceMaterialEditable=true
+								UseMaterialAppearance=true
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'PhysicsAttributes'
+								SuppressedForPhysics='False'
+								SuppressedForPhysicsEditable=true
+							$end 'PhysicsAttributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=61
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=25
+										XStart='0mm'
+										YStart='0mm'
+										ZStart='0mm'
+										Width='40mm'
+										Height='17.2mm'
+										WhichAxis='Z'
+									$end 'RectangleParameters'
+									ParentPartID=62
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=0
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=62
+										StartFaceID=-1
+										StartEdgeID=63
+										StartVertexID=67
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=71
+									$begin 'LocalOperationParameters'
+										KernelVersion=25
+										LocalOpPart=62
+									$end 'LocalOperationParameters'
+									ParentPartID=62
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=72
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=72
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=688
+															FcUVMid(20, 8.6, 0)
+															$begin 'FcTolVts'
+																TolVt(0, 0, 0, 5e-07)
+																TolVt(40, 0, 0, 5e-07)
+																TolVt(40, 17.2, 0, 5e-07)
+																TolVt(0, 17.2, 0, 5e-07)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=61
+								$end 'Operation'
+							$end 'Operations'
+							$begin 'SubregionDependencyInformation'
+								ChildSubregions[0:]
+							$end 'SubregionDependencyInformation'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Vias'
+								Flags=''
+								Color='(128 255 255)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"pec"'
+								SurfaceMaterialValue='""'
+								SolveInside=false
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								IsSurfaceMaterialEditable=true
+								UseMaterialAppearance=false
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'PhysicsAttributes'
+								SuppressedForPhysics='False'
+								SuppressedForPhysicsEditable=true
+							$end 'PhysicsAttributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='NativeBody'
+									ID=2164
+									ReferenceCoordSystemID=1
+									$begin 'NativeBodyParameters'
+										KernelVersion=25
+										SourceFile='PurgedPart'
+									$end 'NativeBodyParameters'
+									ParentPartID=356
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=60
+											NumShells=60
+											NumFaces=180
+											NumWires=0
+											NumLoops=240
+											NumCoedges=240
+											NumEdges=120
+											NumVertices=0
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+									BodyType='BRepBody'
+									$begin 'BodyBlock'
+										BodyFileNamesVec[1: '0000356.x_b']
+									$end 'BodyBlock'
+								$end 'Operation'
+							$end 'Operations'
+							$begin 'SubregionDependencyInformation'
+								ChildSubregions[0:]
+							$end 'SubregionDependencyInformation'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='AirBox'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0.9
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SurfaceMaterialValue='""'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								IsSurfaceMaterialEditable=true
+								UseMaterialAppearance=false
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'PhysicsAttributes'
+								SuppressedForPhysics='False'
+								SuppressedForPhysicsEditable=true
+							$end 'PhysicsAttributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Box'
+									ID=579
+									ReferenceCoordSystemID=1
+									$begin 'BoxParameters'
+										KernelVersion=25
+										XPosition='0mm'
+										YPosition='-4.3mm'
+										ZPosition='-0.508mm'
+										XSize='50mm'
+										YSize='25.8mm'
+										ZSize='5.08mm'
+									$end 'BoxParameters'
+									ParentPartID=580
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=6
+											NumWires=0
+											NumLoops=6
+											NumCoedges=24
+											NumEdges=12
+											NumVertices=8
+										$end 'Topology'
+										BodyID=580
+										StartFaceID=581
+										StartEdgeID=587
+										StartVertexID=599
+										NumNewFaces=6
+										NumNewEdges=12
+										NumNewVertices=8
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+							$end 'Operations'
+							$begin 'SubregionDependencyInformation'
+								ChildSubregions[0:]
+							$end 'SubregionDependencyInformation'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Port_Rect'
+								Flags=''
+								Color='(128 255 0)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SurfaceMaterialValue='""'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								IsSurfaceMaterialEditable=true
+								UseMaterialAppearance=false
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'PhysicsAttributes'
+								SuppressedForPhysics='False'
+								SuppressedForPhysicsEditable=true
+							$end 'PhysicsAttributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=631
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=25
+										XStart='0mm'
+										YStart='6.26mm'
+										ZStart='-0.508mm'
+										Width='4.68mm'
+										Height='1.542mm'
+										WhichAxis='X'
+									$end 'RectangleParameters'
+									ParentPartID=632
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=0
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=632
+										StartFaceID=-1
+										StartEdgeID=633
+										StartVertexID=637
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=641
+									$begin 'LocalOperationParameters'
+										KernelVersion=25
+										LocalOpPart=632
+									$end 'LocalOperationParameters'
+									ParentPartID=632
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=642
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=642
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=7.21656
+															FcUVMid(2.67269931790309e-16, 8.6, 0.263000000000001)
+															$begin 'FcTolVts'
+																TolVt(0, 6.26, -0.508, 5e-07)
+																TolVt(2.86567351000481e-16, 10.94, -0.507999999999999, 5e-07)
+																TolVt(5.34539863580618e-16, 10.94, 1.034, 5e-07)
+																TolVt(2.47972512580137e-16, 6.26, 1.034, 5e-07)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=631
+								$end 'Operation'
+							$end 'Operations'
+							$begin 'SubregionDependencyInformation'
+								ChildSubregions[0:]
+							$end 'SubregionDependencyInformation'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Rectangle2'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SurfaceMaterialValue='""'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								IsSurfaceMaterialEditable=true
+								UseMaterialAppearance=false
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'PhysicsAttributes'
+								SuppressedForPhysics='False'
+								SuppressedForPhysicsEditable=true
+							$end 'PhysicsAttributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=2191
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=25
+										XStart='13mm'
+										YStart='0mm'
+										ZStart='0.508mm'
+										Width='27mm'
+										Height='17.2mm'
+										WhichAxis='Z'
+									$end 'RectangleParameters'
+									ParentPartID=2192
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=0
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=2192
+										StartFaceID=-1
+										StartEdgeID=2193
+										StartVertexID=2197
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=2201
+									$begin 'LocalOperationParameters'
+										KernelVersion=25
+										LocalOpPart=2192
+									$end 'LocalOperationParameters'
+									ParentPartID=2192
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=2202
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=2202
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=464.4
+															FcUVMid(26.5, 8.6, 0.508)
+															$begin 'FcTolVts'
+																TolVt(13, 0, 0.508, 5e-07)
+																TolVt(40, 0, 0.508, 5e-07)
+																TolVt(40, 17.2, 0.508, 5e-07)
+																TolVt(13, 17.2, 0.508, 5e-07)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=2191
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Substract'
+									ID=2215
+									$begin 'SubtractParameters'
+										KernelVersion=25
+										KeepOriginals=false
+										TurnOnNBodyBoolean=true
+										BlankPart=2192
+										NumToolParts=1
+										ToolParts(2204)
+									$end 'SubtractParameters'
+									ParentPartID=2192
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=2
+											NumCoedges=8
+											NumEdges=8
+											NumVertices=8
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=2216
+										StartVertexID=2220
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+												$begin 'Edge'
+													NormalizedSerialNum=0
+													ID=2216
+													EdgeFaces(2202)
+													$begin 'EdTolVts'
+														TolVt(19.1, 9.35, 0.508, 5e-07)
+														TolVt(19.1, 7.85, 0.508, 5e-07)
+													$end 'EdTolVts'
+													EdgeMidPoint(19.1, 8.6, 0.508)
+												$end 'Edge'
+												$begin 'Edge'
+													NormalizedSerialNum=1
+													ID=2217
+													EdgeFaces(2202)
+													$begin 'EdTolVts'
+														TolVt(33.9, 7.85, 0.508, 5e-07)
+														TolVt(19.1, 7.85, 0.508, 5e-07)
+													$end 'EdTolVts'
+													EdgeMidPoint(26.5, 7.85, 0.508)
+												$end 'Edge'
+												$begin 'Edge'
+													NormalizedSerialNum=2
+													ID=2218
+													EdgeFaces(2202)
+													$begin 'EdTolVts'
+														TolVt(33.9, 9.35, 0.508, 5e-07)
+														TolVt(33.9, 7.85, 0.508, 5e-07)
+													$end 'EdTolVts'
+													EdgeMidPoint(33.9, 8.6, 0.508)
+												$end 'Edge'
+												$begin 'Edge'
+													NormalizedSerialNum=3
+													ID=2219
+													EdgeFaces(2202)
+													$begin 'EdTolVts'
+														TolVt(33.9, 9.35, 0.508, 5e-07)
+														TolVt(19.1, 9.35, 0.508, 5e-07)
+													$end 'EdTolVts'
+													EdgeMidPoint(26.5, 9.35, 0.508)
+												$end 'Edge'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+												$begin 'Vertex'
+													NormalizedSerialNum=0
+													ID=2220
+													VtPos(19.1, 7.85, 0.508)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=1
+													ID=2221
+													VtPos(33.9, 7.85, 0.508)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=2
+													ID=2222
+													VtPos(19.1, 9.35, 0.508)
+												$end 'Vertex'
+												$begin 'Vertex'
+													NormalizedSerialNum=3
+													ID=2223
+													VtPos(33.9, 9.35, 0.508)
+												$end 'Vertex'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+										$begin 'MergedFaces'
+										$end 'MergedFaces'
+										$begin 'MergedEdges'
+										$end 'MergedEdges'
+									$end 'OperationIdentity'
+									BlankOperation=2201
+									NumToolOperations=1
+									ToolOperations(2213)
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='Unite'
+									ID=2224
+									$begin 'UniteParameters'
+										KernelVersion=25
+										KeepOriginals=false
+										TurnOnNBodyBoolean=true
+										BlankPart=2192
+										NumToolParts=2
+										ToolParts(2180, 2168)
+									$end 'UniteParameters'
+									ParentPartID=2192
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=2
+											NumCoedges=14
+											NumEdges=14
+											NumVertices=14
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=-1
+										StartEdgeID=2225
+										StartVertexID=-1
+										NumNewFaces=0
+										NumNewEdges=2
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+												$begin 'Edge'
+													NormalizedSerialNum=0
+													ID=2225
+													EdgeFaces(2202)
+													$begin 'EdTolVts'
+														TolVt(13, 17.2, 0.508, 5e-07)
+														TolVt(13, 10, 0.508, 5e-07)
+													$end 'EdTolVts'
+													EdgeMidPoint(13, 13.6, 0.508)
+												$end 'Edge'
+												$begin 'Edge'
+													NormalizedSerialNum=1
+													ID=2226
+													EdgeFaces(2202)
+													$begin 'EdTolVts'
+														TolVt(13, 0, 0.508, 5e-07)
+														TolVt(13, 7.2, 0.508, 5e-07)
+													$end 'EdTolVts'
+													EdgeMidPoint(13, 3.6, 0.508)
+												$end 'Edge'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+										$begin 'MergedFaces'
+										$end 'MergedFaces'
+										$begin 'MergedEdges'
+											$begin 'Element'
+												RetainedID=2181
+												MergedIDs(2170)
+											$end 'Element'
+										$end 'MergedEdges'
+									$end 'OperationIdentity'
+									BlankOperation=2215
+									NumToolOperations=2
+									ToolOperations(2189, 2177)
+								$end 'Operation'
+							$end 'Operations'
+							$begin 'SubregionDependencyInformation'
+								ChildSubregions[0:]
+							$end 'SubregionDependencyInformation'
+						$end 'GeometryPart'
+					$end 'ToplevelParts'
+					$begin 'OperandParts'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Rectangle1'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								IsSurfaceMaterialEditable=true
+								UseMaterialAppearance=false
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'PhysicsAttributes'
+								SuppressedForPhysics='False'
+								SuppressedForPhysicsEditable=true
+							$end 'PhysicsAttributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=2167
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=25
+										XStart='0mm'
+										YStart='7.82mm'
+										ZStart='0.508mm'
+										Width='10mm'
+										Height='1.56mm'
+										WhichAxis='Z'
+									$end 'RectangleParameters'
+									ParentPartID=2168
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=0
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=2168
+										StartFaceID=-1
+										StartEdgeID=2169
+										StartVertexID=2173
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=2177
+									$begin 'LocalOperationParameters'
+										KernelVersion=25
+										LocalOpPart=2168
+									$end 'LocalOperationParameters'
+									ParentPartID=2168
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=2178
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=2178
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=15.6
+															FcUVMid(5, 8.6, 0.508)
+															$begin 'FcTolVts'
+																TolVt(0, 7.82, 0.508, 5e-07)
+																TolVt(10, 7.82, 0.508, 5e-07)
+																TolVt(10, 9.38, 0.508, 5e-07)
+																TolVt(0, 9.38, 0.508, 5e-07)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=2167
+								$end 'Operation'
+							$end 'Operations'
+							$begin 'SubregionDependencyInformation'
+								ChildSubregions[0:]
+							$end 'SubregionDependencyInformation'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline1'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								IsSurfaceMaterialEditable=true
+								UseMaterialAppearance=false
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'PhysicsAttributes'
+								SuppressedForPhysics='False'
+								SuppressedForPhysicsEditable=true
+							$end 'PhysicsAttributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=2179
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=25
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='10mm'
+												Y='7.82mm'
+												Z='0.508mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='10mm'
+												Y='9.38mm'
+												Z='0.508mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='13mm'
+												Y='10mm'
+												Z='0.508mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='13mm'
+												Y='7.2mm'
+												Z='0.508mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='10mm'
+												Y='7.82mm'
+												Z='0.508mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=2180
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=0
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=2180
+										StartFaceID=-1
+										StartEdgeID=2181
+										StartVertexID=2185
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=2189
+									$begin 'LocalOperationParameters'
+										KernelVersion=25
+										LocalOpPart=2180
+									$end 'LocalOperationParameters'
+									ParentPartID=2180
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=2190
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=2190
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=6.54
+															FcUVMid(11.5, 8.6, 0.508)
+															$begin 'FcTolVts'
+																TolVt(10, 7.82, 0.508, 5e-07)
+																TolVt(10, 9.38, 0.508, 5e-07)
+																TolVt(13, 10, 0.508, 5e-07)
+																TolVt(13, 7.2, 0.508, 5e-07)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=2179
+								$end 'Operation'
+							$end 'Operations'
+							$begin 'SubregionDependencyInformation'
+								ChildSubregions[0:]
+							$end 'SubregionDependencyInformation'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Rectangle3'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='""'
+								SurfaceMaterialValue='""'
+								SolveInside=true
+								ShellElement=false
+								ShellElementThickness='0mm'
+								ReferenceTemperature='20cel'
+								IsMaterialEditable=true
+								IsSurfaceMaterialEditable=true
+								UseMaterialAppearance=false
+								IsLightweight=false
+								IsAlwaysHidden=false
+							$end 'Attributes'
+							$begin 'PhysicsAttributes'
+								SuppressedForPhysics='False'
+								SuppressedForPhysicsEditable=true
+							$end 'PhysicsAttributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Rectangle'
+									ID=2203
+									ReferenceCoordSystemID=1
+									$begin 'RectangleParameters'
+										KernelVersion=25
+										XStart='19.1mm'
+										YStart='7.85mm'
+										ZStart='0.508mm'
+										Width='14.8mm'
+										Height='1.5mm'
+										WhichAxis='Z'
+									$end 'RectangleParameters'
+									ParentPartID=2204
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=0
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=2204
+										StartFaceID=-1
+										StartEdgeID=2205
+										StartVertexID=2209
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=2213
+									$begin 'LocalOperationParameters'
+										KernelVersion=25
+										LocalOpPart=2204
+									$end 'LocalOperationParameters'
+									ParentPartID=2204
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=2214
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=2214
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=22.2
+															FcUVMid(26.5, 8.6, 0.508)
+															$begin 'FcTolVts'
+																TolVt(19.1, 7.85, 0.508, 5e-07)
+																TolVt(33.9, 7.85, 0.508, 5e-07)
+																TolVt(33.9, 9.35, 0.508, 5e-07)
+																TolVt(19.1, 9.35, 0.508, 5e-07)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=2203
+								$end 'Operation'
+							$end 'Operations'
+							$begin 'SubregionDependencyInformation'
+								ChildSubregions[0:]
+							$end 'SubregionDependencyInformation'
+						$end 'GeometryPart'
+					$end 'OperandParts'
+					$begin 'Planes'
+					$end 'Planes'
+					$begin 'Points'
+					$end 'Points'
+					$begin 'GeometryEntityLists'
+					$end 'GeometryEntityLists'
+					$begin 'CachedNames'
+						$begin 'airbox'
+							airbox(-1)
+						$end 'airbox'
+						$begin 'allobjects'
+							allobjects(-1)
+						$end 'allobjects'
+						$begin 'global'
+							global(-1)
+						$end 'global'
+						$begin 'ground'
+							ground(-1)
+						$end 'ground'
+						$begin 'model'
+							model(-1)
+						$end 'model'
+						$begin 'polyline'
+							polyline(1)
+						$end 'polyline'
+						$begin 'port_rect'
+							port_rect(-1)
+						$end 'port_rect'
+						$begin 'rectangle'
+							rectangle(1, 2, 3)
+						$end 'rectangle'
+						$begin 'substrate'
+							substrate(-1)
+						$end 'substrate'
+						$begin 'vias'
+							vias(-1)
+						$end 'vias'
+					$end 'CachedNames'
+				$end 'GeometryOperations'
+				$begin 'GeometryDependencies'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 33)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 61)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 71)
+						DependencyObject('GeometryBodyOperation', 61)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 2164)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 579)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 631)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 641)
+						DependencyObject('GeometryBodyOperation', 631)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 2191)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 2201)
+						DependencyObject('GeometryBodyOperation', 2191)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=2
+						DependencyObject('GeometryBodyOperation', 2215)
+						DependencyObject('GeometryBodyOperation', 2201)
+						DependencyObject('GeometryBodyOperation', 2213)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=3
+						DependencyObject('GeometryBodyOperation', 2224)
+						DependencyObject('GeometryBodyOperation', 2215)
+						DependencyObject('GeometryBodyOperation', 2189)
+						DependencyObject('GeometryBodyOperation', 2177)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 2167)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 2177)
+						DependencyObject('GeometryBodyOperation', 2167)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 2179)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 2189)
+						DependencyObject('GeometryBodyOperation', 2179)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 2203)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 2213)
+						DependencyObject('GeometryBodyOperation', 2203)
+					$end 'DependencyInformation'
+				$end 'GeometryDependencies'
+			$end 'GeometryCore'
+			$begin 'AssignedEntities'
+				AssignedObject[3: 62, 632, 2192]
+				$begin 'AssignedFace'
+					kID=581
+					$begin 'FaceData'
+						ParentObjectID=580
+						NormalValid=false
+						$begin 'FaceGeomTopol'
+							FaceTopol(1, 4, 4, 4)
+							$begin 'FaceGeometry'
+								Area=1290
+								FcUVMid(25, 8.6, 4.572)
+								$begin 'FcTolVts'
+									TolVt(50, -4.3, 4.572, 5e-07)
+									TolVt(50, 21.5, 4.572, 5e-07)
+									TolVt(0, 21.5, 4.572, 5e-07)
+									TolVt(0, -4.3, 4.572, 5e-07)
+								$end 'FcTolVts'
+							$end 'FaceGeometry'
+						$end 'FaceGeomTopol'
+					$end 'FaceData'
+				$end 'AssignedFace'
+				$begin 'AssignedFace'
+					kID=582
+					$begin 'FaceData'
+						ParentObjectID=580
+						NormalValid=false
+						$begin 'FaceGeomTopol'
+							FaceTopol(1, 4, 4, 4)
+							$begin 'FaceGeometry'
+								Area=1290
+								FcUVMid(25, 8.6, -0.508)
+								$begin 'FcTolVts'
+									TolVt(50, -4.3, -0.508, 5e-07)
+									TolVt(0, -4.3, -0.508, 5e-07)
+									TolVt(0, 21.5, -0.508, 5e-07)
+									TolVt(50, 21.5, -0.508, 5e-07)
+								$end 'FcTolVts'
+							$end 'FaceGeometry'
+						$end 'FaceGeomTopol'
+					$end 'FaceData'
+				$end 'AssignedFace'
+				$begin 'AssignedFace'
+					kID=583
+					$begin 'FaceData'
+						ParentObjectID=580
+						NormalValid=false
+						$begin 'FaceGeomTopol'
+							FaceTopol(1, 4, 4, 4)
+							$begin 'FaceGeometry'
+								Area=254
+								FcUVMid(25, -4.3, 2.032)
+								$begin 'FcTolVts'
+									TolVt(50, -4.3, 4.572, 5e-07)
+									TolVt(0, -4.3, 4.572, 5e-07)
+									TolVt(0, -4.3, -0.508, 5e-07)
+									TolVt(50, -4.3, -0.508, 5e-07)
+								$end 'FcTolVts'
+							$end 'FaceGeometry'
+						$end 'FaceGeomTopol'
+					$end 'FaceData'
+				$end 'AssignedFace'
+				$begin 'AssignedFace'
+					kID=584
+					$begin 'FaceData'
+						ParentObjectID=580
+						NormalValid=false
+						$begin 'FaceGeomTopol'
+							FaceTopol(1, 4, 4, 4)
+							$begin 'FaceGeometry'
+								Area=131.064
+								FcUVMid(0, 8.6, 2.032)
+								$begin 'FcTolVts'
+									TolVt(0, -4.3, 4.572, 5e-07)
+									TolVt(0, 21.5, 4.572, 5e-07)
+									TolVt(0, 21.5, -0.508, 5e-07)
+									TolVt(0, -4.3, -0.508, 5e-07)
+								$end 'FcTolVts'
+							$end 'FaceGeometry'
+						$end 'FaceGeomTopol'
+					$end 'FaceData'
+				$end 'AssignedFace'
+				$begin 'AssignedFace'
+					kID=585
+					$begin 'FaceData'
+						ParentObjectID=580
+						NormalValid=false
+						$begin 'FaceGeomTopol'
+							FaceTopol(1, 4, 4, 4)
+							$begin 'FaceGeometry'
+								Area=254
+								FcUVMid(25, 21.5, 2.032)
+								$begin 'FcTolVts'
+									TolVt(0, 21.5, 4.572, 5e-07)
+									TolVt(50, 21.5, 4.572, 5e-07)
+									TolVt(50, 21.5, -0.508, 5e-07)
+									TolVt(0, 21.5, -0.508, 5e-07)
+								$end 'FcTolVts'
+							$end 'FaceGeometry'
+						$end 'FaceGeomTopol'
+					$end 'FaceData'
+				$end 'AssignedFace'
+				$begin 'AssignedFace'
+					kID=586
+					$begin 'FaceData'
+						ParentObjectID=580
+						NormalValid=false
+						$begin 'FaceGeomTopol'
+							FaceTopol(1, 4, 4, 4)
+							$begin 'FaceGeometry'
+								Area=131.064
+								FcUVMid(50, 8.6, 2.032)
+								$begin 'FcTolVts'
+									TolVt(50, 21.5, -0.508, 5e-07)
+									TolVt(50, 21.5, 4.572, 5e-07)
+									TolVt(50, -4.3, 4.572, 5e-07)
+									TolVt(50, -4.3, -0.508, 5e-07)
+								$end 'FcTolVts'
+							$end 'FaceGeometry'
+						$end 'FaceGeomTopol'
+					$end 'FaceData'
+				$end 'AssignedFace'
+				$begin 'AssignedEdge'
+					kID=66
+					$begin 'EdgeData'
+						ParentObjectID=62
+						ParentFaces[1: 72]
+						$begin 'EdgeGeomTopol'
+							EdgeFaces(72)
+							$begin 'EdTolVts'
+								TolVt(0, 0, 0, 5e-07)
+								TolVt(0, 17.2, 0, 5e-07)
+							$end 'EdTolVts'
+							EdgeMidPoint(0, 8.6, 0)
+						$end 'EdgeGeomTopol'
+					$end 'EdgeData'
+				$end 'AssignedEdge'
+			$end 'AssignedEntities'
+			GroupByMaterial=true
+			GroupSheetByMaterial=true
+			GroupCompByDefID=true
+			DoNotOrganizeUnderGroup=false
+			DoNotOrganizeUnderComponent=false
+			OrganizeLightweight=false
+			ShowGroup=true
+			$begin 'LastUserInputs'
+			$end 'LastUserInputs'
+		$end 'ModelSetup'
+		$begin '3DComponent'
+			$begin 'NativeComponentVisualization'
+			$end 'NativeComponentVisualization'
+		$end '3DComponent'
+		$begin 'BoundarySetup'
+			$begin 'GlobalBoundData'
+				PortImpedance='1'
+				GlobalMaterialEnv='vacuum'
+				UseTotalFieldFormulation=false
+				HybridRegionCouplingType='TwoWayCoupled'
+				$begin 'AntennaSourceToBlockageMap'
+				$end 'AntennaSourceToBlockageMap'
+				$begin 'HybridRegionIDToBlockageMap'
+				$end 'HybridRegionIDToBlockageMap'
+				$begin 'RegionGroupsOrderedByID'
+				$end 'RegionGroupsOrderedByID'
+				$begin 'HybridRegionSources'
+				$end 'HybridRegionSources'
+				'Current Source Conformance'='Auto'
+				'Thin Sources'=false
+			$end 'GlobalBoundData'
+			$begin 'Boundaries'
+				NextUniqueID=8
+				MoveBackwards=false
+				$begin 'Ground_PEC'
+					ID=0
+					BoundType='Perfect E'
+					IsComponent=false
+					Objects(62)
+					ParentBndID=-1
+					InfGroundPlane=false
+				$end 'Ground_PEC'
+				$begin 'Rad_Boundary'
+					ID=4
+					BoundType='Radiation'
+					IsComponent=false
+					Faces(583, 582, 584, 586, 585, 581)
+					ParentBndID=-1
+					UseAdaptiveIE=false
+					IsFssReference=false
+					IsForPML=false
+				$end 'Rad_Boundary'
+				$begin 'top_metal'
+					ID=7
+					BoundType='Perfect E'
+					IsComponent=false
+					Objects(2192)
+					ParentBndID=-1
+					InfGroundPlane=false
+				$end 'top_metal'
+				$begin 'Port1'
+					ID=5
+					BoundType='Wave Port'
+					IsComponent=false
+					Objects(632)
+					WavePortType='Modal'
+					NumModes=1
+					PECCapPartID=-1
+					UseLineModeAlignment=false
+					DoDeembed=false
+					DeembedDist='0mm'
+					ParentBndID=-1
+					ImpedanceType='Impedance'
+					$begin 'Modes'
+						$begin 'Mode1'
+							ModeNum=1
+							UseIntLine=true
+							$begin 'IntLine'
+								$begin 'GeometryPosition'
+									IsAttachedToEntity=true
+									EntityID=66
+									FacetedBodyTriangleIndex=-1
+									TriangleVertexIndex=-1
+									hasXYZ=true
+									PositionType='EdgeCenter'
+									UParam=0
+									VParam=0
+									XPosition='0'
+									YPosition='8.6'
+									ZPosition='0'
+								$end 'GeometryPosition'
+								$begin 'GeometryPosition'
+									IsAttachedToEntity=true
+									EntityID=550
+									FacetedBodyTriangleIndex=-1
+									TriangleVertexIndex=-1
+									hasXYZ=true
+									PositionType='EdgeCenter'
+									UParam=0
+									VParam=0
+									XPosition='0'
+									YPosition='8.6'
+									ZPosition='0.508'
+								$end 'GeometryPosition'
+							$end 'IntLine'
+							AlignmentGroup=0
+							CharImp='Zpi'
+						$end 'Mode1'
+					$end 'Modes'
+					UseAnalyticAlignment=false
+					ShowReporterFilter=false
+					ReporterFilter(true)
+					SpecifyWaveDirection=false
+					WaveDirectionComputed=true
+					SpecifiedWaveDirectionFlip=false
+				$end 'Port1'
+			$end 'Boundaries'
+			$begin 'ProductSpecificData'
+				$begin 'SBRTxRxSettings'
+				$end 'SBRTxRxSettings'
+				$begin 'SBRCreepingWaveSettings'
+					CWRaySampleDensity=10
+					CWRayCutoffDb=40
+					CWCurvatureSensitivity=50
+					CWAngularRayInterval=2
+				$end 'SBRCreepingWaveSettings'
+				$begin 'SBRBlockageSettings'
+				$end 'SBRBlockageSettings'
+				$begin 'PMLData'
+					$begin 'PMLGroups'
+					$end 'PMLGroups'
+				$end 'PMLData'
+				$begin 'SortOrder'
+					Port[1: -1]
+					Terminal[1: -1]
+				$end 'SortOrder'
+				'Phase Center Mode'='SinglePhaseCenter'
+				'Single Phase Center'=-1
+				$begin 'SBRWedgeSettings'
+					MaxWedgeAngle='135deg'
+					IncludeSheetEdges=true
+					ApplySourceDistFilter=false
+					EnableWedgeEditing=false
+					EnableAutomaticWedges=true
+					EditType[0:]
+					SelectionType[0:]
+					ObjectID[0:]
+					FaceID[0:]
+					EdgeID[0:]
+					EdgeFaceID1[0:]
+					EdgeFaceID2[0:]
+					StartX[0:]
+					StartY[0:]
+					StartZ[0:]
+					MidX[0:]
+					MidY[0:]
+					MidZ[0:]
+					EndX[0:]
+					EndY[0:]
+					EndZ[0:]
+					ApplyBoxFilter=false
+				$end 'SBRWedgeSettings'
+			$end 'ProductSpecificData'
+		$end 'BoundarySetup'
+		$begin 'ArrayDefinition'
+			NextUniqueID=0
+			MoveBackwards=false
+		$end 'ArrayDefinition'
+		$begin 'MeshSetup'
+			$begin 'MeshSettings'
+				$begin 'GlobalSurfApproximation'
+					CurvedSurfaceApproxChoice='UseSlider'
+					SliderMeshSettings=5
+				$end 'GlobalSurfApproximation'
+				$begin 'GlobalCurvilinear'
+					Apply=false
+				$end 'GlobalCurvilinear'
+				$begin 'GlobalModelRes'
+					UseAutoLength=true
+				$end 'GlobalModelRes'
+				MeshMethod='Auto'
+				UseLegacyFaceterForTauVolumeMesh=false
+				DynamicSurfaceResolution=false
+				UseFlexMeshingForTAUvolumeMesh=false
+				UseAlternativeMeshMethodsAsFallBack=true
+				AllowPhiForLayeredGeometry=true
+			$end 'MeshSettings'
+			$begin 'MeshOperations'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'MeshOperations'
+		$end 'MeshSetup'
+		$begin 'AnalysisSetup'
+			$begin 'HfssGlobalData'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'HfssGlobalData'
+			$begin 'SolveSetups'
+				NextUniqueID=1
+				MoveBackwards=false
+				$begin 'Setup1'
+					ID=0
+					SetupType='HfssDriven'
+					SolveType='Single'
+					Frequency='8GHz'
+					MaxDeltaS=0.02
+					UseMatrixConv=false
+					MaximumPasses=20
+					MinimumPasses=1
+					MinimumConvergedPasses=1
+					PercentRefinement=30
+					IsEnabled=true
+					$begin 'MeshLink'
+						ImportMesh=false
+					$end 'MeshLink'
+					BasisOrder=1
+					DoLambdaRefine=true
+					DoMaterialLambda=true
+					SetLambdaTarget=false
+					Target=0.3333
+					UseMaxTetIncrease=false
+					PortAccuracy=2
+					UseABCOnPort=false
+					SetPortMinMaxTri=false
+					PortMinTri=100
+					PortMaxTri=500
+					DrivenSolverType='Direct Solver'
+					EnhancedLowFreqAccuracy=false
+					EnhancedFEBIPreconditioner=false
+					SaveRadFieldsOnly=false
+					SaveAnyFields=true
+					IESolverType='Auto'
+					LambdaTargetForIESolver=0.15
+					UseDefaultLambdaTgtForIESolver=true
+					'IE Solver Accuracy'='Balanced'
+					InfiniteSphereSetup=-1
+					MaxPass=10
+					MinPass=1
+					MinConvPass=1
+					PerError=1
+					PerRefine=30
+					$begin 'Sweeps'
+						NextUniqueID=1
+						MoveBackwards=false
+						$begin 'Sweep1'
+							ID=0
+							IsEnabled=true
+							RangeType='LinearCount'
+							RangeStart='6GHz'
+							RangeEnd='12GHz'
+							RangeCount=121
+							Type='Fast'
+							SaveFields=true
+							SaveRadFields=false
+							GenerateFieldsForAllFreqs=false
+						$end 'Sweep1'
+					$end 'Sweeps'
+				$end 'Setup1'
+			$end 'SolveSetups'
+		$end 'AnalysisSetup'
+		$begin 'Optimetrics'
+			$begin 'OptimetricsSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'OptimetricsSetups'
+		$end 'Optimetrics'
+		$begin 'Solutions'
+			FieldType='NoIncidentWave'
+			UseIncidentVoltage=true
+			IncludePortPostProcessing=false
+			UsePerElementArrayPower=true
+			UseSpecifiedIncidentPower=false
+			SourceEntry(ID=5, Index=0, Terminal=false, Terminated=false, Magnitude='1V', Phase='0deg')
+			SourceEntry(ID=5, Index=0, Terminal=true, Terminated=false, Resistance='0ohm', Reactance='0ohm')
+			'Use Weighted Element Pattern Postprocessing Mode'=false
+			$begin 'Contexts'
+				NextUniqueID=1
+				MoveBackwards=false
+			$end 'Contexts'
+		$end 'Solutions'
+		$begin 'PortFieldDisplay'
+			$begin 'PortFieldDisplay'
+				ScaleFactor=5
+			$end 'PortFieldDisplay'
+		$end 'PortFieldDisplay'
+		$begin 'FieldsReporter'
+			$begin 'FieldsCalculator'
+				Line_Discretization=1000
+				'Show Stack'=true
+				$begin 'SurfaceMeshSummary'
+					SolutionName=''
+					Variation=''
+					$begin 'MeshRowItems'
+					$end 'MeshRowItems'
+				$end 'SurfaceMeshSummary'
+			$end 'FieldsCalculator'
+			$begin 'PlotDefaults'
+				Default_SolutionId=83
+				Default_PlotFolder='Automatic'
+			$end 'PlotDefaults'
+			$begin 'FieldsPlotManagerID'
+				NextUniqueID=0
+				MoveBackwards=false
+				NumQuantityType=0
+				NumPlots=0
+			$end 'FieldsPlotManagerID'
+			$begin 'Report3dInGeomWnd'
+				Report3dNum=0
+			$end 'Report3dInGeomWnd'
+			$begin 'Report2dInGeomWnd'
+				Report2dNum=0
+			$end 'Report2dInGeomWnd'
+			$begin 'AntennaParametersInGeomWnd'
+				AntennaParametersNum=0
+			$end 'AntennaParametersInGeomWnd'
+			AntennaParametersPlotTablesOrder()
+		$end 'FieldsReporter'
+		$begin 'RadField'
+			$begin 'FarFieldSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'FarFieldSetups'
+			$begin 'ArraySetup'
+				UseOption='NoArray'
+				$begin 'RegularArray'
+					NumUCells='10'
+					NumVCells='10'
+					CellUDist='10mm'
+					CellVDist='10mm'
+					UDirnX='1'
+					UDirnY='0'
+					UDirnZ='0'
+					VDirnX='0'
+					VDirnY='1'
+					VDirnZ='0'
+					FirstCellPosX='0mm'
+					FirstCellPosY='0mm'
+					FirstCellPosZ='0mm'
+					Behavior='UseScanAngle'
+					ScanAnglePhi='45deg'
+					ScanAngleTheta='45deg'
+					UDirnPhaseShift='0deg'
+					VDirnPhaseShift='0deg'
+				$end 'RegularArray'
+				$begin 'CustomArray'
+					NumCells=0
+					$begin 'Cell'
+					$end 'Cell'
+				$end 'CustomArray'
+				$begin 'ParametricArray'
+					DesignFrequency='1GHz'
+					LayoutType=1
+					CenterCellX='0mm'
+					CenterCellY='0mm'
+					CenterCellZ='0mm'
+					SpecifyDesignInWavelength=true
+					WidthSpacing='14.9896229mm'
+					WidthSpacingInWavelength='0.05'
+					Width='119.9169832mm'
+					WidthInWavelength='0.4'
+					LengthSpacing='14.9896229mm'
+					LengthSpacingInWavelength='0.05'
+					Length='89.9377374mm'
+					LengthInWavelength='0.3'
+					SymmetryType=0
+					StaggerAngle='0deg'
+					StaggerType=0
+					UDirnX='1'
+					UDirnY='0'
+					UDirnZ='0'
+					VDirnX='0'
+					VDirnY='1'
+					VDirnZ='0'
+					WeightType=3
+					EdgeTaperX_db='-200'
+					CosineExp='1'
+					DifferentialType=0
+					Behavior='UseScanAngle'
+					ScanAnglePhi='45deg'
+					ScanAngleTheta='45deg'
+					UDirnPhaseShift='0deg'
+					VDirnPhaseShift='0deg'
+				$end 'ParametricArray'
+			$end 'ArraySetup'
+			$begin 'NearFieldSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'NearFieldSetups'
+			RadFieldComputationVersion=1.8
+			RadfieldHeaderFile='RAD6BCE5165617792611514.tmp'
+			RadPowerMethod=0
+		$end 'RadField'
+		$begin 'SolutionManager'
+			$begin 'SimSetup'
+				TypeName='BaseSetup'
+				ID=81
+				Name='Setup1'
+				$begin 'Solution'
+					ID=82
+					Name='AdaptivePass'
+					$begin 'SimDataExtractor'
+						IsPortOnly=false
+					$end 'SimDataExtractor'
+				$end 'Solution'
+				$begin 'Solution'
+					ID=83
+					Name='LastAdaptive'
+					$begin 'SimDataExtractor'
+						$begin 'Sweeps'
+							$begin 'Sweep'
+								Variable='Freq'
+								Column='8GHz'
+								Units='GHz'
+							$end 'Sweep'
+							$begin 'PostprocessSweep'
+								Variable='NormalizedDistance'
+								RegularSweep=1
+								Units=''
+								Minimum=0
+								Maximum=1
+								Increment=0.01
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+							$begin 'PostprocessSweep'
+								Variable='Phi'
+								RegularSweep=1
+								Units='deg'
+								Minimum=0
+								Maximum=6.28318530717959
+								Increment=0.0872664625997165
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+							$begin 'PostprocessSweep'
+								Variable='Theta'
+								RegularSweep=1
+								Units='deg'
+								Minimum=0
+								Maximum=6.28318530717959
+								Increment=0.0872664625997165
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+							$begin 'PostprocessSweep'
+								Variable='Phase'
+								RegularSweep=1
+								Units='deg'
+								Minimum=0
+								Maximum=6.28318530717959
+								Increment=0.0872664625997165
+								CreateIndexedSubsweepFlag=false
+							$end 'PostprocessSweep'
+						$end 'Sweeps'
+						IsPortOnly=false
+					$end 'SimDataExtractor'
+				$end 'Solution'
+				$begin 'Solution'
+					ID=87
+					Name='Sweep1'
+					$begin 'SimDataExtractor'
+						IsPortOnly=false
+					$end 'SimDataExtractor'
+				$end 'Solution'
+			$end 'SimSetup'
+			$begin 'Version ID Map'
+				V=430
+				$begin 'Setup'
+					N='Setup1'
+					V=430
+					Soln(N='AdaptivePass', V=433)
+					Soln(N='LastAdaptive', V=433)
+					Soln(N='Sweep1', V=433)
+				$end 'Setup'
+				IQM=431
+			$end 'Version ID Map'
+			$begin 'ID Map'
+				$begin 'Setup'
+					N='Setup1'
+					I=81
+					Soln(N='AdaptivePass', I=82)
+					Soln(N='LastAdaptive', I=83)
+					Soln(N='Sweep1', I=87)
+				$end 'Setup'
+			$end 'ID Map'
+			ValidationCacheHeader='HDR7F7F114404177591121813.tmp'
+		$end 'SolutionManager'
+		$begin 'UserDefinedSolutionMgr'
+			NextUniqueID=1000000
+			MoveBackwards=false
+		$end 'UserDefinedSolutionMgr'
+		$begin 'DatasetSolutionMgr'
+			NextUniqueID=2000000
+			MoveBackwards=false
+		$end 'DatasetSolutionMgr'
+		Notes=$begin_cdata$ $end_cdata$
+		$begin 'AnimationSetups'
+		$end 'AnimationSetups'
+		CacheHeaderFile='HDR6BCE5165617792611515.tmp'
+	$end 'HFSSModel'
+	$begin 'DataInstances'
+		DesignEditor='TopLevel'
+		Refdes('0', 'U1')
+		$begin 'CompInstances'
+			$begin 'Compinst'
+				ID='0'
+				Status='Status'
+				CompName='HFSSDesign1'
+				GatesInUse()
+				$begin 'Properties'
+					TextProp('ID', 'SRID', '', '0')
+				$end 'Properties'
+				$begin 'Parameters'
+					MenuProp('CoSimulator', 'OHD', '', 'DefaultNetlist', 0)
+					ButtonProp('CosimDefinition', 'OHD', '', 'Edit', 'Edit', 40501, ButtonPropClientData())
+				$end 'Parameters'
+			$end 'Compinst'
+		$end 'CompInstances'
+		$begin 'Instance'
+			DesignEditor='HFSSDesign1'
+			ID='0'
+			$begin 'HfssDesignInstance'
+				DesignInstanceID=1
+				$begin 'WindowPosition'
+					$begin 'EditorWindow'
+						Circuit(Editor3d(View('View Orientation Gadget'=1, WindowPos(3, -1, -1, -12, -46, 0, 0, 1723, 654), OrientationMatrix(0.0299180801957846, 0.349067389965057, -0.425443261861801, 0, -0.493857562541962, -0.170944839715958, -0.174979537725449, 0, -0.242780283093452, 0.39074695110321, 0.30351510643959, 0, 15.0144100189209, -17.132755279541, 52.3269348144531, 1, 0, 4.13437414169312, 28.1692237854004, -25.1101989746094, -4.32631587982178, -100.832565307617, 19.2272491455078), Drawings[5: 'Substrate', 'Ground', 'Vias', 'Port_Rect', 'Rectangle2'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=1, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=1, dYForGrid=1, dZForGrid=1, dRForGrid=1, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+					$end 'EditorWindow'
+				$end 'WindowPosition'
+				$begin 'ReportSetup'
+					$begin 'ReportManager'
+						$begin 'Reports'
+						$end 'Reports'
+						NextUniqueID=0
+						MoveBackwards=false
+						$begin 'NextVersID'
+							NextUniqueID=0
+							MoveBackwards=false
+						$end 'NextVersID'
+					$end 'ReportManager'
+					$begin 'Reports'
+					$end 'Reports'
+					$begin 'ReportsWindowInfoList'
+					$end 'ReportsWindowInfoList'
+				$end 'ReportSetup'
+				$begin 'Properties'
+				$end 'Properties'
+				$begin 'UserDefinedDocument'
+					$begin 'Data'
+					$end 'Data'
+				$end 'UserDefinedDocument'
+			$end 'HfssDesignInstance'
+		$end 'Instance'
+		$begin 'SODInfo'
+			$begin 'HFSSDesign1'
+				$begin 'CosimDefinition'
+					CosimDefName='DefaultNetlist'
+					$begin 'SODInstanceMap'
+					$end 'SODInstanceMap'
+					SODComponentList()
+				$end 'CosimDefinition'
+			$end 'HFSSDesign1'
+		$end 'SODInfo'
+	$end 'DataInstances'
+	$begin 'WBSystemIDToDesignInstanceIDMap'
+	$end 'WBSystemIDToDesignInstanceIDMap'
+	$begin 'WBSysIDSysDetails'
+	$end 'WBSysIDSysDetails'
+	$begin 'WBConnIDConnDetails'
+	$end 'WBConnIDConnDetails'
+	$begin 'WBMaterialGuidDetails'
+		WBMaterialGuidMap()
+	$end 'WBMaterialGuidDetails'
+	$begin 'MinervaProjectSettingsBlk'
+		MinervaRemoteFilePath=''
+		FolderContainerString=''
+	$end 'MinervaProjectSettingsBlk'
+$end 'AnsoftProject'
+$begin 'AllReferencedFilesForProject'
+$begin 'Design_0.setup/NativeGeometryFiles'
+NumFiles= 1
+$begin 'x_b'
+Design_0.setup/NativeGeometryFiles/0000356.x_b
+BIN000000068341
+**ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz**************************
+**PARASOLID !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~0123456789**************************
+**PART1;
+MC=unknown;
+MC_MODEL=unknown;
+MC_ID=unknown;
+OS=unknown;
+OS_RELEASE=unknown;
+FRU=sdl_parasolid_customer_support;
+APPL=Electronics Desktop;
+SITE=unknown;
+USER=unknown;
+FORMAT=binary;
+GUISE=transmit;
+KEY=C:/temp/try6BCE5165617792611513.setup/Design_0.setup/NativeGeometryFiles/0000356.x_b;
+FILE=C:/temp/try6BCE5165617792611513.setup/Design_0.setup/NativeGeometryFiles/0000356.x_b;
+DATE=unknown;
+**PART2;
+SCH=SCH_3601227_36001;
+USFLD_SIZE=0;
+**PART3;
+**END_OF_HEADER*****************************************************************
+B3   : TRANSMIT FILE created by modeller version 3601227   SCH_3601227_36001_13006Á     ∞ PART_XMT_BLOCK	Part list	n_entries   dindex_map_offset   d	index_mapR  schema_embedding_mapR  mesh_offset_dataŒ  entriesÌ                  $CCCIlatticeﬁ  CCCImeshÓ Ipolyline CCCCCCCDIowner CCCIboundary_latticeﬁ  CCCIboundary_meshÓ Iboundary_polyline CCCAindex_map_offset   dA	index_mapR  Anode_id_index_mapR  Aschema_embedding_mapR  Achild  Alowest_node_id   dAmesh_offset_dataŒ  Z |	               @è@:å0‚éyE>      	 
+                                      @è@:å0‚éyE>                           Q ˇ               F CI	list_type   uI
+notransmit   lCCCDCCDIfinger_index   dIfinger_blockÙ CZ                    ˇ             ˇ                                 	CCCCCCIframeÊ  CAowner  Z          V  ˇ           nôèíº¬ J CIindex_map_offset   dCCZ                                Q                Q                P CCCCCDIlegal_owners   lCZ      D                         S ˇ         @è@O ˇ    SDL/TYSA_DENSITYP        (#                      T ˇ    UNIT=mmO      AEDT_EntityName_V1P     ! " (#                      S     {ÆG·zÑ?O    " AEDT_ExtentScale_V1Q     |	  #  $    % F                  & &         '   (  3 ˇ	     ) *   +ˆ(\è¬ı¿?V-≤≈?                              ?{ÆG·zd?      ?                 ˇ
+      +   +ˆ(\è¬ı¿?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd?       ,  -  V  ˇ    .   nôèíº¬/  0 
+    Q    . #  1    2 3  4  ˇ/  5 / /  6    + 0    3   nôèíº¬7  8 +    Q    3 %  1 0   . 9  :  7  ; 7 7  < 0   + 8 ª  9   nôèíº¬= 0 > ?     + 
+    0 @ 
+  +ˆ(\è¬ı¿?V-≤≈?                              ?      ?                {ÆG·zd? @ c   A B +  +>
+◊£p=∫?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? A »  C   nôèíº¬D E F @     B d   F G @  +>
+◊£p=∫?V-≤≈?                              ?      ?                {ÆG·zd? F À  H   nôèíº¬I A J B     G e   K L B  +ÖÎQ∏Ÿ?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? K ≥  M   nôèíº¬N O E G     L f   E P G  +ÖÎQ∏Ÿ?{ÆG·zd?                              ?      ?                {ÆG·zd? E ∂  Q   nôèíº¬R K A L     P g   S T L  +|ÆG·zÿ?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? S û  U   nôèíº¬V W O P     T h   O X P  +|ÆG·zÿ?{ÆG·zd?                              ?      ?                {ÆG·zd? O °  Y   nôèíº¬Z S K T     X i   [ \ T  +ÿ£p=
+◊◊?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? [ â  ]   nôèíº¬^ _ W X     \ j   W ` X  +ÿ£p=
+◊◊?{ÆG·zd?                              ?      ?                {ÆG·zd? W å  a   nôèíº¬b [ S \     ` k   c d \  +433333◊?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? c t  e   nôèíº¬f g _ `     d l   _ h `  +433333◊?{ÆG·zd?                              ?      ?                {ÆG·zd? _ w  i   nôèíº¬j c [ d     h m   k l d  +ê¬ı(\è÷?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? k _  m   nôèíº¬n o g h     l n   g p h  +ê¬ı(\è÷?{ÆG·zd?                              ?      ?                {ÆG·zd? g b  q   nôèíº¬r k c l     p o   s t l  +ÏQ∏ÖÎ’?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? s J  u   nôèíº¬v w o p     t p   o x p  +ÏQ∏ÖÎ’?{ÆG·zd?                              ?      ?                {ÆG·zd? o M  y   nôèíº¬z s k t     x q   { | t  +H·zÆG’?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? { 5  }   nôèíº¬~  w x     | r   w Ä x  +H·zÆG’?{ÆG·zd?                              ?      ?                {ÆG·zd? w 8  Å   nôèíº¬Ç { s |     Ä s   É Ñ |  +§p=
+◊£‘?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? É    Ö   nôèíº¬Ü á  Ä     Ñ t    à Ä  +§p=
+◊£‘?{ÆG·zd?                              ?      ?                {ÆG·zd?  #  â   nôèíº¬ä É { Ñ     à u   ã å Ñ  +      ‘?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ã   ç   nôèíº¬é è á à     å v   á ê à  +      ‘?{ÆG·zd?                              ?      ?                {ÆG·zd? á   ë   nôèíº¬í ã É å     ê w   ì î å  +\è¬ı(\”?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ì ˆ  ï   nôèíº¬ñ ó è ê     î x   è ò ê  +\è¬ı(\”?{ÆG·zd?                              ?      ?                {ÆG·zd? è ˘  ô   nôèíº¬ö ì ã î     ò y   õ ú î  +∏ÖÎQ∏“?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? õ ·  ù   nôèíº¬û ü ó ò     ú z   ó † ò  +∏ÖÎQ∏“?{ÆG·zd?                              ?      ?                {ÆG·zd? ó ‰  °   nôèíº¬¢ õ ì ú     † {   £ § ú  +ÆG·z“?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? £ Ã  •   nôèíº¬¶ ß ü †     § |   ü ® †  +ÆG·z“?{ÆG·zd?                              ?      ?                {ÆG·zd? ü œ  ©   nôèíº¬™ £ õ §     ® }   ´ ¨ §  +q=
+◊£p—?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ´ ∑  ≠   nôèíº¬Æ Ø ß ®     ¨ ~   ß ∞ ®  +q=
+◊£p—?{ÆG·zd?                              ?      ?                {ÆG·zd? ß ∫  ±   nôèíº¬≤ ´ £ ¨     ∞    ≥ ¥ ¨  +ÕÃÃÃÃÃ–?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ≥ ¢  µ   nôèíº¬∂ ∑ Ø ∞     ¥ Ä   Ø ∏ ∞  +ÕÃÃÃÃÃ–?{ÆG·zd?                              ?      ?                {ÆG·zd? Ø •  π   nôèíº¬∫ ≥ ´ ¥     ∏ Å   ª º ¥  +)\è¬ı(–?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ª ç  Ω   nôèíº¬æ ø ∑ ∏     º Ç   ∑ ¿ ∏  +)\è¬ı(–?{ÆG·zd?                              ?      ?                {ÆG·zd? ∑ ê  ¡   nôèíº¬¬ ª ≥ º     ¿ É   √ ƒ º  +◊£p=
+œ?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? √ x  ≈   nôèíº¬∆ « ø ¿     ƒ Ñ   ø » ¿  +◊£p=
+œ?{ÆG·zd?                              ?      ?                {ÆG·zd? ø {  …   nôèíº¬  √ ª ƒ     » Ö   À Ã ƒ  +√ı(\è¬Õ?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? À g  Õ   nôèíº¬Œ œ – »     Ã Ü   – — »  +√ı(\è¬Õ?{ÆG·zd?                              ?      ?                {ÆG·zd? – j  “   nôèíº¬” À ‘ Ã     — á   ’ ÷ Ã  +433333À?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ’ |  ◊   nôèíº¬ÿ Ÿ œ —     ÷ à   œ ⁄ —  +433333À?{ÆG·zd?                              ?      ?                {ÆG·zd? œ   €   nôèíº¬‹ ’ À ÷     ⁄ â   › ﬁ ÷  +ÏQ∏ÖÎ…?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? › ë  ﬂ   nôèíº¬‡ · Ÿ ⁄     ﬁ ä   Ÿ ‚ ⁄  +ÏQ∏ÖÎ…?{ÆG·zd?                              ?      ?                {ÆG·zd? Ÿ î  „   nôèíº¬‰ › ’ ﬁ     ‚ ã   Â Ê ﬁ  +§p=
+◊£»?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? Â ¶  Á   nôèíº¬Ë È · ‚     Ê å   · Í ‚  +§p=
+◊£»?{ÆG·zd?                              ?      ?                {ÆG·zd? · ©  Î   nôèíº¬Ï Â › Ê     Í ç   Ì Ó Ê  +\è¬ı(\«?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? Ì N  Ô   nôèíº¬ Ò Ú Í     Ó é   Ú Û Í  +\è¬ı(\«?{ÆG·zd?                              ?      ?                {ÆG·zd? Ú Q  Ù   nôèíº¬ı Ì ˆ Ó     Û è   ˜ ¯ Ó  +ÕÃÃÃÃÃƒ?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ˜ 9  ˘   nôèíº¬˙ ˚ Ò Û     ¯ ê   Ò ¸ Û  +ÕÃÃÃÃÃƒ?{ÆG·zd?                              ?      ?                {ÆG·zd? Ò <  ˝   nôèíº¬˛ ˜ Ì ¯     ¸ ë   ˇ  ¯  +ÜÎQ∏Ö√?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ˇ $    nôèíº¬˚ ¸      í   ˚ ¸  +ÜÎQ∏Ö√?{ÆG·zd?                              ?      ?                {ÆG·zd? ˚ '    nôèíº¬ˇ ˜      ì     +>
+◊£p=¬?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd?   	  nôèíº¬
+    î    +>
+◊£p=¬?{ÆG·zd?                              ?      ?                {ÆG·zd?     nôèíº¬ˇ     ï    +ˆ(\è¬ı¿?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ˙    nôèíº¬    ñ    +ˆ(\è¬ı¿?{ÆG·zd?                              ?      ?                {ÆG·zd? ˝    nôèíº¬    ó    +]è¬ı(\ø?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? Â    nôèíº¬    ò    +]è¬ı(\ø?{ÆG·zd?                              ?      ?                {ÆG·zd? Ë    nôèíº¬    ô     +ÕÃÃÃÃÃº?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? –  !  nôèíº¬">      ö   ?  +ÕÃÃÃÃÃº?{ÆG·zd?                              ?      ?                {ÆG·zd? ”  #  nôèíº¬$     ? õ   8 %  +>
+◊£p=∫?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? %ú   > &?  +>
+◊£p=∫?{ÆG·zd?                              ?      ?                {ÆG·zd? > æ  '  nôèíº¬(8 %    &ù   ˆ )% +ÆG·z∆?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ˆ c  *  nôèíº¬+Ú È &    )û   È ,& +ÆG·z∆?{ÆG·zd?                              ?      ?                {ÆG·zd? È f  -  nôèíº¬.ˆ Â )    ,ü   ‘ /) +{ÆG·zÃ?{ÆG·zd?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ‘ R  0  nôèíº¬1– « ,    /†   « 2, +{ÆG·zÃ?{ÆG·zd?                              ?      ?                {ÆG·zd? « U  3  nôèíº¬4‘ √ /    2°   J 5/ +ÕÃÃÃÃÃº?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? J ›  6  nôèíº¬7F 82    5¢   892 +ÕÃÃÃÃÃº?V-≤≈?                              ?      ?                {ÆG·zd? 8‡  :  nôèíº¬;J <5    9£   <=5 +]è¬ı(\ø?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? <=  >  nôèíº¬?8@9    =§   @A9 +]è¬ı(\ø?V-≤≈?                              ?      ?                {ÆG·zd? @@  B  nôèíº¬C<D=    A•   DE= +ÖÎQ∏Ÿ?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? DÚ  F  nôèíº¬G@HA    E¶   HIA +ÖÎQ∏Ÿ?V-≤≈?                              ?      ?                {ÆG·zd? Hı  J  nôèíº¬KDLE    Iß   LME +|ÆG·zÿ?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? L(  N  nôèíº¬OHPI    M®   PQI +|ÆG·zÿ?V-≤≈?                              ?      ?                {ÆG·zd? P+  R  nôèíº¬SLTM    Q©   TUM +ÿ£p=
+◊◊?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? T  V  nôèíº¬WPXQ    U™   XYQ +ÿ£p=
+◊◊?V-≤≈?                              ?      ?                {ÆG·zd? X
+  Z  nôèíº¬[T\U    Y´   \]U +433333◊?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? \  ^  nôèíº¬_X`Y    ]¨   `aY +433333◊?V-≤≈?                              ?      ?                {ÆG·zd? `  b  nôèíº¬c\d]    a≠   de] +ê¬ı(\è÷?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? d  f  nôèíº¬g`ha    eÆ   hia +ê¬ı(\è÷?V-≤≈?                              ?      ?                {ÆG·zd? h  j  nôèíº¬kdle    iØ   lme +ÏQ∏ÖÎ’?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? l˛   n  nôèíº¬ohpi    m∞   pqi +ÏQ∏ÖÎ’?V-≤≈?                              ?      ?                {ÆG·zd? p  r  nôèíº¬sltm    q±   tum +H·zÆG’?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? t1  v  nôèíº¬wpxq    u≤   xyq +H·zÆG’?V-≤≈?                              ?      ?                {ÆG·zd? x4  z  nôèíº¬{t|u    y≥   |}u +§p=
+◊£‘?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? |È   ~  nôèíº¬xÄy    }¥   ÄÅy +§p=
+◊£‘?V-≤≈?                              ?      ?                {ÆG·zd? ÄÏ   Ç  nôèíº¬É|Ñ}    Åµ   ÑÖ} +      ‘?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ÑF  Ü  nôèíº¬áÄàÅ    Ö∂   àâÅ +      ‘?V-≤≈?                              ?      ?                {ÆG·zd? àI  ä  nôèíº¬ãÑåÖ    â∑   åçÖ +\è¬ı(\”?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? å‘   é  nôèíº¬èàêâ    ç∏   êëâ +\è¬ı(\”?V-≤≈?                              ?      ?                {ÆG·zd? ê◊   í  nôèíº¬ìåîç    ëπ   îïç +∏ÖÎQ∏“?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? î[  ñ  nôèíº¬óêòë    ï∫   òôë +∏ÖÎQ∏“?V-≤≈?                              ?      ?                {ÆG·zd? ò^  ö  nôèíº¬õîúï    ôª   úùï +ÆG·z“?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? úø   û  nôèíº¬üò†ô    ùº   †°ô +ÆG·z“?V-≤≈?                              ?      ?                {ÆG·zd? †¬   ¢  nôèíº¬£ú§ù    °Ω   §•ù +q=
+◊£p—?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? §p  ¶  nôèíº¬ß†®°    •æ   ®©° +q=
+◊£p—?V-≤≈?                              ?      ?                {ÆG·zd? ®s  ™  nôèíº¬´§¨•    ©ø   ¨≠• +ÕÃÃÃÃÃ–?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ¨™   Æ  nôèíº¬Ø®∞©    ≠¿   ∞±© +ÕÃÃÃÃÃ–?V-≤≈?                              ?      ?                {ÆG·zd? ∞≠   ≤  nôèíº¬≥¨¥≠    ±¡   ¥µ≠ +)\è¬ı(–?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ¥Ö  ∂  nôèíº¬∑∞∏±    µ¬   ∏π± +)\è¬ı(–?V-≤≈?                              ?      ?                {ÆG·zd? ∏à  ∫  nôèíº¬ª¥ºµ    π√   ºΩµ +◊£p=
+œ?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ºï   æ  nôèíº¬ø∏¿π    Ωƒ   ¿¡π +◊£p=
+œ?V-≤≈?                              ?      ?                {ÆG·zd? ¿ò   ¬  nôèíº¬√ºƒΩ    ¡≈   ƒ≈Ω +√ı(\è¬Õ?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ƒö  ∆  nôèíº¬«¿»¡    ≈∆   »…¡ +√ı(\è¬Õ?V-≤≈?                              ?      ?                {ÆG·zd? »ù     nôèíº¬ÀƒÃ≈    …«   ÃÕ≈ +{ÆG·zÃ?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ÃÄ   Œ  nôèíº¬œ»–…    Õ»   –—… +{ÆG·zÃ?V-≤≈?                              ?      ?                {ÆG·zd? –É   “  nôèíº¬”Ã‘Õ    —…   ‘’Õ +433333À?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ‘Ø  ÷  nôèíº¬◊–ÿ—    ’    ÿŸ— +433333À?V-≤≈?                              ?      ?                {ÆG·zd? ÿ≤  ⁄  nôèíº¬€‘‹’    ŸÀ   ‹›’ +ÏQ∏ÖÎ…?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ‹k   ﬁ  nôèíº¬ﬂÿ‡Ÿ    ›Ã   ‡·Ÿ +ÏQ∏ÖÎ…?V-≤≈?                              ?      ?                {ÆG·zd? ‡n   ‚  nôèíº¬„‹‰›    ·Õ   ‰Â› +§p=
+◊£»?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ‰ƒ  Ê  nôèíº¬Á‡Ë·    ÂŒ   ËÈ· +§p=
+◊£»?V-≤≈?                              ?      ?                {ÆG·zd? Ë«  Í  nôèíº¬Î‰ÏÂ    Èœ   ÏÌÂ +\è¬ı(\«?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ÏV   Ó  nôèíº¬ÔËÈ    Ì–   ÒÈ +\è¬ı(\«?V-≤≈?                              ?      ?                {ÆG·zd? Y   Ú  nôèíº¬ÛÏÙÌ    Ò—   ÙıÌ +ÆG·z∆?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ÙŸ  ˆ  nôèíº¬˜¯Ò    ı“   ¯˘Ò +ÆG·z∆?V-≤≈?                              ?      ?                {ÆG·zd? ¯‹  ˙  nôèíº¬˚Ù¸ı    ˘”   ¸˝ı +ÕÃÃÃÃÃƒ?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ¸A   ˛  nôèíº¬ˇ¯ ˘    ˝‘    ˘ +ÕÃÃÃÃÃƒ?V-≤≈?                              ?      ?                {ÆG·zd?  D     nôèíº¬¸˝    ’   ˝ +ÜÎQ∏Ö√?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? Ó    nôèíº¬     ÷   	 +ÜÎQ∏Ö√?V-≤≈?                              ?      ?                {ÆG·zd? Ò  
+  nôèíº¬    	◊    +>
+◊£p=¬?V-≤≈?¢—ƒŒt?       Ä       Ä      ø      ?                {ÆG·zd? ,     nôèíº¬	    ÿ    	 +>
+◊£p=¬?V-≤≈?                              ?      ?                {ÆG·zd? /     nôèíº¬    Q      1         + ˇ>          - 9      ˇ6     nôèíº¬+  Q      1     :     nôèíº¬  !+    2   "  nôèíº¬ #$+    *        % 2 ˇb    $ +>
+◊£p=¬?V-≤≈?               Ä       Ä      ø      ø                     &     &    '    ( '    )    * (G   +  nôèíº¬, -./+  , &Q    +  1 (  "0 1 ,K   0  nôèíº¬2(3.4+  2(& -J    5(  .?      (  6 2 /[   (47 +ÕÃÃÃÃÃƒ?V-≤≈?¢—ƒŒt?                      ?      ?               Ä2 4\   ,8/ +ÕÃÃÃÃÃƒ?V-≤≈?               Ä       Ä      ø      ø                3 7Z   2/9 +ÕÃÃÃÃÃƒ?V-≤≈?                              ?{ÆG·zd?      ?                 2O   :  nôèíº¬ ,;.7+   ,&2 9Y   <7= +ÆG·z∆?V-≤≈?               Ä       Ä      ø      ø                 <„  >  nôèíº¬?@AB9+  ?@C2 =X   @9D +ÆG·z∆?V-≤≈?¢—ƒŒt?                      ?      ?               Ä @ﬂ  E  nôèíº¬< FB=+  < C3 DW   ?=G +ÆG·z∆?V-≤≈?                              ?{ÆG·zd?      ?                 ?Á  H  nôèíº¬ <IBD+   <C2 GV   JDK +\è¬ı(\«?V-≤≈?               Ä       Ä      ø      ø                 J`   L  nôèíº¬M*NOG+  M*'2 KU   *GP +\è¬ı(\«?V-≤≈?¢—ƒŒt?                      ?      ?               Ä *\   Q  nôèíº¬J ROK+  J '3 PT   MKS +\è¬ı(\«?V-≤≈?                              ?{ÆG·zd?      ?                 Md   T  nôèíº¬ JUOP+   J'2 SS   VPW +§p=
+◊£»?V-≤≈?               Ä       Ä      ø      ø                 VŒ  X  nôèíº¬YZ[\S+  YZ]2 WR   ZS^ +§p=
+◊£»?V-≤≈?¢—ƒŒt?                      ?      ?               Ä Z   _  nôèíº¬V `\W+  V ]3 ^Q   YWa +§p=
+◊£»?V-≤≈?                              ?{ÆG·zd?      ?                 Y“  b  nôèíº¬ Vc\^+   V]2 aP   d^e +ÏQ∏ÖÎ…?V-≤≈?               Ä       Ä      ø      ø                 du   f  nôèíº¬ghija+  gh)2 eO   hak +ÏQ∏ÖÎ…?V-≤≈?¢—ƒŒt?                      ?      ?               Ä hq   l  nôèíº¬d mje+  d )3 kN   gen +ÏQ∏ÖÎ…?V-≤≈?                              ?{ÆG·zd?      ?                 gy   o  nôèíº¬ dpjk+   d)2 nM   qkr +433333À?V-≤≈?               Ä       Ä      ø      ø                 qπ  s  nôèíº¬tuvwn+  tux2 rL   uny +433333À?V-≤≈?¢—ƒŒt?                      ?      ?               Ä uµ  z  nôèíº¬q {wr+  q x3 yK   tr| +433333À?V-≤≈?                              ?{ÆG·zd?      ?                 tΩ  }  nôèíº¬ q~wy+   qx2 |J   yÄ +{ÆG·zÃ?V-≤≈?               Ä       Ä      ø      ø                 ä   Å  nôèíº¬ÇÉÑÖ|+  ÇÉÜ2 ÄI   É|á +{ÆG·zÃ?V-≤≈?¢—ƒŒt?                      ?      ?               Ä ÉÜ   à  nôèíº¬ âÖÄ+   Ü3 áH   ÇÄä +{ÆG·zÃ?V-≤≈?                              ?{ÆG·zd?      ?                 Çé   ã  nôèíº¬ åÖá+   Ü2 äG   çáé +√ı(\è¬Õ?V-≤≈?               Ä       Ä      ø      ø                 ç§  è  nôèíº¬êëíìä+  êëî2 éF   ëäï +√ı(\è¬Õ?V-≤≈?¢—ƒŒt?                      ?      ?               Ä ë†  ñ  nôèíº¬ç óìé+  ç î3 ïE   êéò +√ı(\è¬Õ?V-≤≈?                              ?{ÆG·zd?      ?                 ê®  ô  nôèíº¬ çöìï+   çî2 òD   õïú +◊£p=
+œ?V-≤≈?               Ä       Ä      ø      ø                 õü   ù  nôèíº¬ûü†°ò+  ûü¢2 úC   üò£ +◊£p=
+œ?V-≤≈?¢—ƒŒt?                      ?      ?               Ä üõ   §  nôèíº¬õ •°ú+  õ ¢3 £B   ûú¶ +◊£p=
+œ?V-≤≈?                              ?{ÆG·zd?      ?                 û£   ß  nôèíº¬ õ®°£+   õ¢2 ¶A   ©£™ +)\è¬ı(–?V-≤≈?               Ä       Ä      ø      ø                 ©è  ´  nôèíº¬¨≠ÆØ¶+  ¨≠∞2 ™@   ≠¶± +)\è¬ı(–?V-≤≈?¢—ƒŒt?                      ?      ?               Ä ≠ã  ≤  nôèíº¬© ≥Ø™+  © ∞3 ±?   ¨™¥ +)\è¬ı(–?V-≤≈?                              ?{ÆG·zd?      ?                 ¨ì  µ  nôèíº¬ ©∂Ø±+   ©∞2 ¥>   ∑±∏ +ÕÃÃÃÃÃ–?V-≤≈?               Ä       Ä      ø      ø                 ∑¥   π  nôèíº¬∫ªºΩ¥+  ∫ªæ2 ∏=   ª¥ø +ÕÃÃÃÃÃ–?V-≤≈?¢—ƒŒt?                      ?      ?               Ä ª∞   ¿  nôèíº¬∑ ¡Ω∏+  ∑ æ3 ø<   ∫∏¬ +ÕÃÃÃÃÃ–?V-≤≈?                              ?{ÆG·zd?      ?                 ∫∏   √  nôèíº¬ ∑ƒΩø+   ∑æ2 ¬;   ≈ø∆ +q=
+◊£p—?V-≤≈?               Ä       Ä      ø      ø                 ≈z  «  nôèíº¬»… À¬+  »…Ã2 ∆:   …¬Õ +q=
+◊£p—?V-≤≈?¢—ƒŒt?                      ?      ?               Ä …v  Œ  nôèíº¬≈ œÀ∆+  ≈ Ã3 Õ9   »∆– +q=
+◊£p—?V-≤≈?                              ?{ÆG·zd?      ?                 »~  —  nôèíº¬ ≈“ÀÕ+   ≈Ã2 –8   ”Õ‘ +ÆG·z“?V-≤≈?               Ä       Ä      ø      ø                 ”…   ’  nôèíº¬÷◊ÿŸ–+  ÷◊⁄2 ‘7   ◊–€ +ÆG·z“?V-≤≈?¢—ƒŒt?                      ?      ?               Ä ◊≈   ‹  nôèíº¬” ›Ÿ‘+  ” ⁄3 €6   ÷‘ﬁ +ÆG·z“?V-≤≈?                              ?{ÆG·zd?      ?                 ÷Õ   ﬂ  nôèíº¬ ”‡Ÿ€+   ”⁄2 ﬁ5   ·€‚ +∏ÖÎQ∏“?V-≤≈?               Ä       Ä      ø      ø                 ·e  „  nôèíº¬‰ÂÊÁﬁ+  ‰ÂË2 ‚4   ÂﬁÈ +∏ÖÎQ∏“?V-≤≈?¢—ƒŒt?                      ?      ?               Ä Âa  Í  nôèíº¬· ÎÁ‚+  · Ë3 È3   ‰‚Ï +∏ÖÎQ∏“?V-≤≈?                              ?{ÆG·zd?      ?                 ‰i  Ì  nôèíº¬ ·ÓÁÈ+   ·Ë2 Ï2   ÔÈ +\è¬ı(\”?V-≤≈?               Ä       Ä      ø      ø                 Ôﬁ   Ò  nôèíº¬ÚÛÙıÏ+  ÚÛˆ2 1   ÛÏ˜ +\è¬ı(\”?V-≤≈?¢—ƒŒt?                      ?      ?               Ä Û⁄   ¯  nôèíº¬Ô ˘ı+  Ô ˆ3 ˜0   Ú˙ +\è¬ı(\”?V-≤≈?                              ?{ÆG·zd?      ?                 Ú‚   ˚  nôèíº¬ Ô¸ı˜+   Ôˆ2 ˙/   ˝˜˛ +      ‘?V-≤≈?               Ä       Ä      ø      ø                 ˝P  ˇ  nôèíº¬ ˙+   2 ˛.   ˙ +      ‘?V-≤≈?¢—ƒŒt?                      ?      ?               Ä L    nôèíº¬˝ ˛+  ˝ 3 -    ˛ +      ‘?V-≤≈?                              ?{ÆG·zd?      ?                  T  	  nôèíº¬ ˝
++   ˝2 ,    +§p=
+◊£‘?V-≤≈?               Ä       Ä      ø      ø                 Û     nôèíº¬+  2 +    +§p=
+◊£‘?V-≤≈?¢—ƒŒt?                      ?      ?               Ä Ô     nôèíº¬ +   3 *    +§p=
+◊£‘?V-≤≈?                              ?{ÆG·zd?      ?                 ˜     nôèíº¬ +   2 )    +H·zÆG’?V-≤≈?               Ä       Ä      ø      ø                 ;    nôèíº¬+   2 (   ! +H·zÆG’?V-≤≈?¢—ƒŒt?                      ?      ?               Ä 7  "  nôèíº¬ #+    3 !'   $ +H·zÆG’?V-≤≈?                              ?{ÆG·zd?      ?                 ?  %  nôèíº¬ &!+    2 $&   '!( +ÏQ∏ÖÎ’?V-≤≈?               Ä       Ä      ø      ø                 '  )  nôèíº¬*+,-$+  *+.2 (%   +$/ +ÏQ∏ÖÎ’?V-≤≈?¢—ƒŒt?                      ?      ?               Ä +  0  nôèíº¬' 1-(+  ' .3 /$   *(2 +ÏQ∏ÖÎ’?V-≤≈?                              ?{ÆG·zd?      ?                 *  3  nôèíº¬ '4-/+   '.2 2#   5/6 +ê¬ı(\è÷?V-≤≈?               Ä       Ä      ø      ø                 5&  7  nôèíº¬89:;2+  89<2 6"   92= +ê¬ı(\è÷?V-≤≈?¢—ƒŒt?                      ?      ?               Ä 9"  >  nôèíº¬5 ?;6+  5 <3 =!   86@ +ê¬ı(\è÷?V-≤≈?                              ?{ÆG·zd?      ?                 8*  A  nôèíº¬ 5B;=+   5<2 @    C=D +433333◊?V-≤≈?               Ä       Ä      ø      ø                 C  E  nôèíº¬FGHI@+  FGJ2 D   G@K +433333◊?V-≤≈?¢—ƒŒt?                      ?      ?               Ä G  L  nôèíº¬C MID+  C J3 K   FDN +433333◊?V-≤≈?                              ?{ÆG·zd?      ?                 F!  O  nôèíº¬ CPIK+   CJ2 N   QKR +ÿ£p=
+◊◊?V-≤≈?               Ä       Ä      ø      ø                 Q  S  nôèíº¬TUVWN+  TUX2 R   UNY +ÿ£p=
+◊◊?V-≤≈?¢—ƒŒt?                      ?      ?               Ä U  Z  nôèíº¬Q [WR+  Q X3 Y   TR\ +ÿ£p=
+◊◊?V-≤≈?                              ?{ÆG·zd?      ?                 T  ]  nôèíº¬ Q^WY+   QX2 \   _Y` +|ÆG·zÿ?V-≤≈?               Ä       Ä      ø      ø                 _2  a  nôèíº¬bcde\+  bcf2 `   c\g +|ÆG·zÿ?V-≤≈?¢—ƒŒt?                      ?      ?               Ä c.  h  nôèíº¬_ ie`+  _ f3 g   b`j +|ÆG·zÿ?V-≤≈?                              ?{ÆG·zd?      ?                 b6  k  nôèíº¬ _leg+   _f2 j   mgn +ÖÎQ∏Ÿ?V-≤≈?               Ä       Ä      ø      ø                 m¸  o  nôèíº¬pqrsj+  pqt2 n   qju +ÖÎQ∏Ÿ?V-≤≈?¢—ƒŒt?                      ?      ?               Ä q¯  v  nôèíº¬m wsn+  m t3 u   pnx +ÖÎQ∏Ÿ?V-≤≈?                              ?{ÆG·zd?      ?                 p   y  nôèíº¬ mzsu+   mt2 x   {u| +]è¬ı(\ø?V-≤≈?               Ä       Ä      ø      ø                 {G  }  nôèíº¬~ÄÅx+  ~Ç2 |   xÉ +]è¬ı(\ø?V-≤≈?¢—ƒŒt?                      ?      ?               Ä C  Ñ  nôèíº¬{ ÖÅ|+  { Ç3 É   ~|Ü +]è¬ı(\ø?V-≤≈?                              ?{ÆG·zd?      ?                 ~K  á  nôèíº¬ {àÅÉ+   {Ç2 Ü   âÉä +ÕÃÃÃÃÃº?V-≤≈?               Ä       Ä      ø      ø                 âÁ  ã  nôèíº¬åçéèÜ+  åçê2 ä   çÜë +ÕÃÃÃÃÃº?V-≤≈?¢—ƒŒt?                      ?      ?               Ä ç„  í  nôèíº¬â ìèä+  â ê3 ë   åäî +ÕÃÃÃÃÃº?V-≤≈?                              ?{ÆG·zd?      ?                 åÎ  ï  nôèíº¬ âñèë+   âê2 î   óëò +{ÆG·zÃ?{ÆG·zd?               Ä       Ä      ø      ø                 ó\  ô  nôèíº¬öõúùî+  öõû2 ò   õîü +{ÆG·zÃ?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä õX  †  nôèíº¬ó °ùò+  ó û3 ü   öò¢ +{ÆG·zÃ?{ÆG·zd?                              ?{ÆG·zd?      ?                 ö`  £  nôèíº¬ ó§ùü+   óû2 ¢   •ü¶ +ÆG·z∆?{ÆG·zd?               Ä       Ä      ø      ø                 •m  ß  nôèíº¬®©™´¢+  ®©¨2 ¶
+   ©¢≠ +ÆG·z∆?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä ©i  Æ  nôèíº¬• Ø´¶+  • ¨3 ≠	   ®¶∞ +ÆG·z∆?{ÆG·zd?                              ?{ÆG·zd?      ?                 ®q  ±  nôèíº¬ •≤´≠+   •¨2 ∞   ≥≠¥ +>
+◊£p=∫?{ÆG·zd?               Ä       Ä      ø      ø                 ≥≈  µ  nôèíº¬∂∑∏π∞+  ∂∑∫2 ¥   ∑∞ª +>
+◊£p=∫?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä ∑¡  º  nôèíº¬≥ Ωπ¥+  ≥ ∫3 ª   ∂¥æ +>
+◊£p=∫?{ÆG·zd?                              ?{ÆG·zd?      ?                 ∂…  ø  nôèíº¬ ≥¿πª+   ≥∫2 æ   ¡ª¬ +ÕÃÃÃÃÃº?{ÆG·zd?               Ä       Ä      ø      ø                 ¡⁄  √  nôèíº¬ƒ≈∆«æ+  ƒ≈»2 ¬   ≈æ… +ÕÃÃÃÃÃº?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä ≈÷     nôèíº¬¡ À«¬+  ¡ »3 …   ƒ¬Ã +ÕÃÃÃÃÃº?{ÆG·zd?                              ?{ÆG·zd?      ?                 ƒﬁ  Õ  nôèíº¬ ¡Œ«…+   ¡»2 Ã   œ…– +]è¬ı(\ø?{ÆG·zd?               Ä       Ä      ø      ø                 œÔ  —  nôèíº¬“”‘’Ã+  “”÷2 –   ”Ã◊ +]è¬ı(\ø?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä ”Î  ÿ  nôèíº¬œ Ÿ’–+  œ ÷3 ◊    “–⁄ +]è¬ı(\ø?{ÆG·zd?                              ?{ÆG·zd?      ?                 “Û  €  nôèíº¬ œ‹’◊+   œ÷2 ⁄ˇ   ›◊ﬁ +ˆ(\è¬ı¿?{ÆG·zd?               Ä       Ä      ø      ø                 ›  ﬂ  nôèíº¬‡·‚„⁄+  ‡·‰2 ﬁ˛   ·⁄Â +ˆ(\è¬ı¿?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä ·   Ê  nôèíº¬› Á„ﬁ+  › ‰3 Â˝   ‡ﬁË +ˆ(\è¬ı¿?{ÆG·zd?                              ?{ÆG·zd?      ?                 ‡  È  nôèíº¬ ›Í„Â+   ›‰2 Ë¸   ÎÂÏ +>
+◊£p=¬?{ÆG·zd?               Ä       Ä      ø      ø                 Î  Ì  nôèíº¬ÓÔÒË+  ÓÔÚ2 Ï˚   ÔËÛ +>
+◊£p=¬?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä Ô  Ù  nôèíº¬Î ıÒÏ+  Î Ú3 Û˙   ÓÏˆ +>
+◊£p=¬?{ÆG·zd?                              ?{ÆG·zd?      ?                 Ó  ˜  nôèíº¬ Î¯ÒÛ+   ÎÚ2 ˆ˘   ˘Û˙ +ÜÎQ∏Ö√?{ÆG·zd?               Ä       Ä      ø      ø                 ˘.  ˚  nôèíº¬¸˝˛ˇˆ+  ¸˝ 2 ˙¯   ˝ˆ +ÜÎQ∏Ö√?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä ˝*    nôèíº¬˘ ˇ˙+  ˘  3 ˜   ¸˙ +ÜÎQ∏Ö√?{ÆG·zd?                              ?{ÆG·zd?      ?                 ¸2    nôèíº¬ ˘ˇ+   ˘ 2 ˆ    +ÕÃÃÃÃÃƒ?{ÆG·zd?               Ä       Ä      ø      ø                 C  	  nôèíº¬
++  
+2 ı    +ÕÃÃÃÃÃƒ?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä ?    nôèíº¬ +   3 Ù   
+ +ÕÃÃÃÃÃƒ?{ÆG·zd?                              ?{ÆG·zd?      ?                 
+G    nôèíº¬ +   2 Û    +\è¬ı(\«?{ÆG·zd?               Ä       Ä      ø      ø                 X    nôèíº¬+  2 Ú    +\è¬ı(\«?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä T    nôèíº¬ +   3 Ò     +\è¬ı(\«?{ÆG·zd?                              ?{ÆG·zd?      ?                 \  !  nôèíº¬ "+   2     #$ +§p=
+◊£»?{ÆG·zd?               Ä       Ä      ø      ø                 #∞  %  nôèíº¬&'() +  &'*2 $Ô   ' + +§p=
+◊£»?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä '¨  ,  nôèíº¬# -)$+  # *3 +Ó   &$. +§p=
+◊£»?{ÆG·zd?                              ?{ÆG·zd?      ?                 &¥  /  nôèíº¬ #0)++   #*2 .Ì   1+2 +ÏQ∏ÖÎ…?{ÆG·zd?               Ä       Ä      ø      ø                 1õ  3  nôèíº¬4567.+  4582 2Ï   5.9 +ÏQ∏ÖÎ…?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä 5ó  :  nôèíº¬1 ;72+  1 83 9Î   42< +ÏQ∏ÖÎ…?{ÆG·zd?                              ?{ÆG·zd?      ?                 4ü  =  nôèíº¬ 1>79+   182 <Í   ?9@ +433333À?{ÆG·zd?               Ä       Ä      ø      ø                 ?Ü  A  nôèíº¬BCDE<+  BCF2 @È   C<G +433333À?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä CÇ  H  nôèíº¬? IE@+  ? F3 GË   B@J +433333À?{ÆG·zd?                              ?{ÆG·zd?      ?                 Bä  K  nôèíº¬ ?LEG+   ?F2 JÁ   MGN +√ı(\è¬Õ?{ÆG·zd?               Ä       Ä      ø      ø                 Mq  O  nôèíº¬PQRSJ+  PQT2 NÊ   QJU +√ı(\è¬Õ?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä Qm  V  nôèíº¬M WSN+  M T3 UÂ   PNX +√ı(\è¬Õ?{ÆG·zd?                              ?{ÆG·zd?      ?                 Pu  Y  nôèíº¬ MZSU+   MT2 X‰   [U\ +◊£p=
+œ?{ÆG·zd?               Ä       Ä      ø      ø                 [Ç  ]  nôèíº¬^_`aX+  ^_b2 \„   _Xc +◊£p=
+œ?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä _~  d  nôèíº¬[ ea\+  [ b3 c‚   ^\f +◊£p=
+œ?{ÆG·zd?                              ?{ÆG·zd?      ?                 ^Ü  g  nôèíº¬ [hac+   [b2 f·   icj +)\è¬ı(–?{ÆG·zd?               Ä       Ä      ø      ø                 ió  k  nôèíº¬lmnof+  lmp2 j‡   mfq +)\è¬ı(–?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä mì  r  nôèíº¬i soj+  i p3 qﬂ   ljt +)\è¬ı(–?{ÆG·zd?                              ?{ÆG·zd?      ?                 lõ  u  nôèíº¬ ivoq+   ip2 tﬁ   wqx +ÕÃÃÃÃÃ–?{ÆG·zd?               Ä       Ä      ø      ø                 w¨  y  nôèíº¬z{|}t+  z{~2 x›   {t +ÕÃÃÃÃÃ–?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä {®  Ä  nôèíº¬w Å}x+  w ~3 ‹   zxÇ +ÕÃÃÃÃÃ–?{ÆG·zd?                              ?{ÆG·zd?      ?                 z∞  É  nôèíº¬ wÑ}+   w~2 Ç€   ÖÜ +q=
+◊£p—?{ÆG·zd?               Ä       Ä      ø      ø                 Ö¡  á  nôèíº¬àâäãÇ+  àâå2 Ü⁄   âÇç +q=
+◊£p—?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä âΩ  é  nôèíº¬Ö èãÜ+  Ö å3 çŸ   àÜê +q=
+◊£p—?{ÆG·zd?                              ?{ÆG·zd?      ?                 à≈  ë  nôèíº¬ Öíãç+   Öå2 êÿ   ìçî +ÆG·z“?{ÆG·zd?               Ä       Ä      ø      ø                 ì÷  ï  nôèíº¬ñóòôê+  ñóö2 î◊   óêõ +ÆG·z“?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä ó“  ú  nôèíº¬ì ùôî+  ì ö3 õ÷   ñîû +ÆG·z“?{ÆG·zd?                              ?{ÆG·zd?      ?                 ñ⁄  ü  nôèíº¬ ì†ôõ+   ìö2 û’   °õ¢ +∏ÖÎQ∏“?{ÆG·zd?               Ä       Ä      ø      ø                 °Î  £  nôèíº¬§•¶ßû+  §•®2 ¢‘   •û© +∏ÖÎQ∏“?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä •Á  ™  nôèíº¬° ´ß¢+  ° ®3 ©”   §¢¨ +∏ÖÎQ∏“?{ÆG·zd?                              ?{ÆG·zd?      ?                 §Ô  ≠  nôèíº¬ °Æß©+   °®2 ¨“   Ø©∞ +\è¬ı(\”?{ÆG·zd?               Ä       Ä      ø      ø                 Ø   ±  nôèíº¬≤≥¥µ¨+  ≤≥∂2 ∞—   ≥¨∑ +\è¬ı(\”?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä ≥¸  ∏  nôèíº¬Ø πµ∞+  Ø ∂3 ∑–   ≤∞∫ +\è¬ı(\”?{ÆG·zd?                              ?{ÆG·zd?      ?                 ≤  ª  nôèíº¬ Øºµ∑+   Ø∂2 ∫œ   Ω∑æ +      ‘?{ÆG·zd?               Ä       Ä      ø      ø                 Ω  ø  nôèíº¬¿¡¬√∫+  ¿¡ƒ2 æŒ   ¡∫≈ +      ‘?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä ¡  ∆  nôèíº¬Ω «√æ+  Ω ƒ3 ≈Õ   ¿æ» +      ‘?{ÆG·zd?                              ?{ÆG·zd?      ?                 ¿  …  nôèíº¬ Ω √≈+   Ωƒ2 »Ã   À≈Ã +§p=
+◊£‘?{ÆG·zd?               Ä       Ä      ø      ø                 À*  Õ  nôèíº¬Œœ–—»+  Œœ“2 ÃÀ   œ»” +§p=
+◊£‘?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä œ&  ‘  nôèíº¬À ’—Ã+  À “3 ”    ŒÃ÷ +§p=
+◊£‘?{ÆG·zd?                              ?{ÆG·zd?      ?                 Œ.  ◊  nôèíº¬ Àÿ—”+   À“2 ÷…   Ÿ”⁄ +H·zÆG’?{ÆG·zd?               Ä       Ä      ø      ø                 Ÿ?  €  nôèíº¬‹›ﬁﬂ÷+  ‹›‡2 ⁄»   ›÷· +H·zÆG’?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä ›;  ‚  nôèíº¬Ÿ „ﬂ⁄+  Ÿ ‡3 ·«   ‹⁄‰ +H·zÆG’?{ÆG·zd?                              ?{ÆG·zd?      ?                 ‹C  Â  nôèíº¬ ŸÊﬂ·+   Ÿ‡2 ‰∆   Á·Ë +ÏQ∏ÖÎ’?{ÆG·zd?               Ä       Ä      ø      ø                 ÁT  È  nôèíº¬ÍÎÏÌ‰+  ÍÎÓ2 Ë≈   Î‰Ô +ÏQ∏ÖÎ’?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä ÎP    nôèíº¬Á ÒÌË+  Á Ó3 Ôƒ   ÍËÚ +ÏQ∏ÖÎ’?{ÆG·zd?                              ?{ÆG·zd?      ?                 ÍX  Û  nôèíº¬ ÁÙÌÔ+   ÁÓ2 Ú√   ıÔˆ +ê¬ı(\è÷?{ÆG·zd?               Ä       Ä      ø      ø                 ıi  ˜  nôèíº¬¯˘˙˚Ú+  ¯˘¸2 ˆ¬   ˘Ú˝ +ê¬ı(\è÷?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä ˘e  ˛  nôèíº¬ı ˇ˚ˆ+  ı ¸3 ˝¡   ¯ˆ  +ê¬ı(\è÷?{ÆG·zd?                              ?{ÆG·zd?      ?                 ¯m    nôèíº¬ ı˚˝+   ı¸2  ¿   ˝ +433333◊?{ÆG·zd?               Ä       Ä      ø      ø                 ~    nôèíº¬	 +  
+2 ø     +433333◊?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä z    nôèíº¬ 	+   
+3 æ    +433333◊?{ÆG·zd?                              ?{ÆG·zd?      ?                 Ç    nôèíº¬ 	+   
+2 Ω    +ÿ£p=
+◊◊?{ÆG·zd?               Ä       Ä      ø      ø                 ì    nôèíº¬+  2 º    +ÿ£p=
+◊◊?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä è    nôèíº¬ +   3 ª    +ÿ£p=
+◊◊?{ÆG·zd?                              ?{ÆG·zd?      ?                 ó    nôèíº¬ +   2 ∫     +|ÆG·zÿ?{ÆG·zd?               Ä       Ä      ø      ø                 ®  !  nôèíº¬"#$%+  "#&2  π   #' +|ÆG·zÿ?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä #§  (  nôèíº¬ )% +   &3 '∏   " * +|ÆG·zÿ?{ÆG·zd?                              ?{ÆG·zd?      ?                 "¨  +  nôèíº¬ ,%'+   &2 *∑   -'. +ÖÎQ∏Ÿ?{ÆG·zd?               Ä       Ä      ø      ø                 -Ω  /  nôèíº¬0123*+  0142 .∂   1*5 +ÖÎQ∏Ÿ?{ÆG·zd?¢—ƒŒt?                      ?      ?               Ä 1π  6  nôèíº¬- 73.+  - 43 5µ   0.8 +ÖÎQ∏Ÿ?{ÆG·zd?                              ?{ÆG·zd?      ?                 0¡  9  nôèíº¬ -:35+   -42 8¥   ;5< +>
+◊£p=∫?V-≤≈?               Ä       Ä      ø      ø                 ;“  =  nôèíº¬>?@A8+  >?B2 <≥   ?8C +>
+◊£p=∫?V-≤≈?¢—ƒŒt?                      ?      ?               Ä ?Œ  D  nôèíº¬; EA<+  ; B3 C≤   ><F +>
+◊£p=∫?V-≤≈?                              ?{ÆG·zd?      ?                 >÷  G  nôèíº¬ ;HAC+   ;B2 F    IC*  +ˆ(\è¬ı¿?V-≤≈?               Ä       Ä      ø      ø                 I	   J  nôèíº¬) ' K F+  ) ' - 2 *     ' F	  +ˆ(\è¬ı¿?V-≤≈?¢—ƒŒt?                      ?      ?               Ä '    L  nôèíº¬I M * +  I - Q    Lq	  1 '   JN O M    6 '   -          '  6  M6 6  /    -P    1 PQ(#                      Q    Jo	  1 I  GL RQ    Ns	  1 )   LS TR ˇ   Og   )    N  nôèíº¬ I5  	 +   I- Q    Su	  1 U  NV WR    Te   UÙ  S  nôèíº¬X YZ[+  X \Q    Vw	  1 X  S] ^R    Wu   X¯  V  nôèíº¬_U`Za+  _U\Q    ]y	  1 _  V  bR    ^t   _¸  ]  nôèíº¬ XcZ8+   X\R    bs   cˇ   _d ZÏ     U  ,  3 8]   _[4 +ÜÎQ∏Ö√?V-≤≈?                              ?{ÆG·zd?      ?                 \∞         U2 [^   Ua8 +ÜÎQ∏Ö√?V-≤≈?¢—ƒŒt?                      ?      ?               Ä2 a_   X![ +ÜÎQ∏Ö√?V-≤≈?               Ä       Ä      ø      ø                3 !`   $a +>
+◊£p=¬?V-≤≈?                              ?{ÆG·zd?      ?                2 $a   ! +>
+◊£p=¬?V-≤≈?¢—ƒŒt?                      ?      ?               Ä ,     e Z S  e    f, B S  f    ge\ S  B◊     @  e  g    hfw S  \¬     Z  f  h    igì S  w≠     u  g  i    jhØ S  ìò     ë  h  j    kiÀ S  ØÉ     ≠  i  k    ljÁ S  Àn     …  j  l    mk S  ÁY     Â  k  m
+    nl S  D       l  n	    om; S  /       m  o    pnW S  ;     9  n  p    qos S  W     U  o  q    rpè S  s     q  p  r    sqA S  è€     ç  q  s    tr3 S  A∆     ?  r  t    us% S  3±     1  s  u    vt S  %ú     #  t  v    wu	 S  á       u  w     xv˚ S  	r       v  xˇ    ywÌ S  ˚]     ˘  w  y˛    zxﬂ S  ÌH     Î  x  z˝    {y— S  ﬂ3     ›  y  {¸    |z√ S  —     œ  z  |˚    }{µ S  √	     ¡  {  }˙    ~|ß S  µÙ     ≥  |  ~˘    }ô S  ßﬂ     •  }  ¯    Ä~ã S  ô      ó  ~  Ä˜    Å} S  ãµ     â    Åˆ    ÇÄo S  }†     {  Ä  Çı    ÉÅa S  oã     m  Å  ÉÙ    ÑÇ´ S  av     _  Ç  ÑÛ    ÖÉ S  ´a     ©  É  ÖÚ    ÜÑ S  L       Ñ  ÜÒ    áÖˇ S  7       Ö  á    àÜÒ S  ˇ"     ˝  Ü  àÔ    âá„ S  Ò     Ô  á  âÓ    äà’ S  „¯     ·  à  äÌ    ãâ« S  ’„     ”  â  ãÏ    åäπ S  «Œ     ≈  ä  åÎ    çã) S  ππ     ∑  ã  çÍ    éå7 S  )§     '  å  éÈ    èçE S  7è     5  ç  èË    êéS S  Ez     C  é  êÁ    ëèù S  Se     Q  è  ëÊ    íêÅ S  ùP     õ  ê  íÂ    ìëe S  Å;       ë  ì‰    îíI S  e&     c  í  î„    ïì- S  I     G  ì  ï‚    ñî S  -¸      +  î  ñ·    óïı S  Á        ï  ó‡    òñŸ S  ı“      Û  ñ  òﬂ    ôóΩ S  ŸΩ      ◊  ó  ôﬁ    öò° S  Ω®      ª  ò  ö›    õôÖ S  °ì      ü  ô  õ‹    úöj S  Ö~      É  ö  ú€    6õO S  ji      h  õ  6⁄    %ú. S  OT      *  ú  %Ÿ    ( 6 S  (       %  S   c ù  + d    _   d û  + û `ûû   - `˚   ûX  ù Yùù   - Y˜   ùU  5     / ) ;  ;     7 )  Q    Gm	  1 >  DJ üR    Rf  Q    Dk	  1 ?  =G †R    üM  Q    =i	  1 ;  9D °R    †O  Q    9g	  1 0  6= ¢R    °N  Q    6e	  1 1  /9 £R    ¢F  Q    /c	  1 -  +6 §R    £H  Q    +a	  1 "  (/ •R    §G  Q    (_	  1 #  !+ ¶R    •?  Q    !]	  1   ( ßR    ¶A  Q    [	  1   ! ®R    ß@  Q    Y	  1    ©R    ®8  Q    W	  1    ™R    ©:  Q    U	  1    ´R    ™9  Q    S	  1    ¨R    ´1  Q    Q	  1    ≠R    ¨3  Q    O	  1 ¯  ˛ ÆR    ≠2  Q    ˛M	  1 ˘  ˜ ØR    Æ*  Q    ˜K	  1 ı  Û˛ ∞R    Ø,  Q    ÛI	  1 Í  ˜ ±R    ∞+  Q    G	  1 Î  ÈÛ ≤R    ±#  Q    ÈE	  1 Á  Â ≥R    ≤%  Q    ÂC	  1 ‹  ‚È ¥R    ≥$  Q    ‚A	  1 ›  €Â µR    ¥  Q    €?	  1 Ÿ  ◊‚ ∂R    µ  Q    ◊=	  1 Œ  ‘€ ∑R    ∂  Q    ‘;	  1 œ  Õ◊ ∏R    ∑  Q    Õ9	  1 À  …‘ πR    ∏  Q    …7	  1 ¿  ∆Õ ∫R    π  Q    ∆5	  1 ¡  ø… ªR    ∫  Q    ø3	  1 Ω  ª∆ ºR    ª  Q    ª1	  1 ≤  ∏ø ΩR    º  Q    ∏/	  1 ≥  ±ª æR    Ω  Q    ±-	  1 Ø  ≠∏ øR    æ	  Q    ≠+	  1 §  ™± ¿R    ø  Q    ™)	  1 •  £≠ ¡R    ¿   Q    £'	  1 °  ü™ ¬R    ¡  Q    ü%	  1 ñ  ú£ √R    ¬  Q    ú#	  1 ó  ïü ƒR    √˘   Q    ï!	  1 ì  ëú ≈R    ƒ˚   Q    ë	  1 à  éï ∆R    ≈˙   Q    é	  1 â  áë «R    ∆Ú   Q    á	  1 Ö  Éé »R    «Ù   Q    É	  1 z  Äá …R    »Û   Q    Ä	  1 {  yÉ  R    …Î   Q    y	  1 w  uÄ ÀR     Ì   Q    u	  1 l  ry ÃR    ÀÏ   Q    r	  1 m  ku ÕR    Ã‰   Q    k	  1 i  gr ŒR    ÕÊ   Q    g	  1 ^  dk œR    ŒÂ   Q    d	  1 _  ]g –R    œ›   Q    ]		  1 [  Yd —R    –ﬂ   Q    Y	  1 P  V] “R    —ﬁ   Q    V	  1 Q  OY ”R    “÷   Q    O	  1 M  KV ‘R    ”ÿ   Q    K	  1 B  HO ’R    ‘◊   Q    Hˇ  1 C  AK ÷R    ’»   Q    A˝  1 ?  =H ◊R    ÷    Q    =˚  1 4  :A ÿR    ◊…   Q    :˘  1 5  3= ŸR    ÿ¡   Q    3˜  1 1  /: ⁄R    Ÿ√   Q    /ı  1 &  ,3 €R    ⁄¬   Q    ,Û  1 '  %/ ‹R    €∫   Q    %Ò  1 #  !, ›R    ‹º   Q    !Ô  1   % ﬁR    ›ª   Q    Ì  1   ! ﬂR    ﬁ≥   Q    Î  1    ‡R    ﬂµ   Q    È  1 
+   ·R    ‡¥   Q    Á  1   	 ‚R    ·•   Q    	Â  1    „R    ‚ß   Q    „  1 ¸  	 ‰R    „¶   Q    ·  1 ˝  ˚ ÂR    ‰û   Q    ˚ﬂ  1 ˘  ˜ ÊR    Â†   Q    ˜›  1 Ó  Ù˚ ÁR    Êü   Q    Ù€  1 Ô  Ì˜ ËR    Áó   Q    ÌŸ  1 Î  ÈÙ ÈR    Ëô   Q    È◊  1 ‡  ÊÌ ÍR    Èò   Q    Ê’  1 ·  ﬂÈ ÎR    Íê   Q    ﬂ”  1 ›  €Ê ÏR    Îí   Q    €—  1 “  ÿﬂ ÌR    Ïë   Q    ÿœ  1 ”  —€ ÓR    Ìâ   Q    —Õ  1 œ  Õÿ ÔR    Óã   Q    ÕÀ  1 ƒ   — R    Ôä   Q     …  1 ≈  √Õ ÒR    Ç   Q    √«  1 ¡  ø  ÚR    ÒÑ   Q    ø≈  1 ∂  º√ ÛR    ÚÉ   Q    º√  1 ∑  µø ÙR    Ûx   Q    µ¡  1 ≥  ±º ıR    Ùz   Q    ±ø  1 ®  Æµ ˆR    ıy   Q    ÆΩ  1 ©  ß± ˜R    ˆ¨   Q    ßª  1 •  £Æ ¯R    ˜Æ   Q    £π  1 ö  †ß ˘R    ¯≠   Q    †∑  1 õ  ô£ ˙R    ˘œ   Q    ôµ  1 ó  ï† ˚R    ˙—   Q    ï≥  1 å  íô ¸R    ˚–   Q    í±  1 ç  ãï ˝R    ¸W  Q    ãØ  1 â  áí ˛R    ˝Y  Q    á≠  1 ~  Ñã ˇR    ˛X  Q    Ñ´  1   }á  R    ˇ^  Q    }©  1 {  yÑ R     `  Q    yß  1 p  v} R    _  Q    v•  1 q  oy R      Q    o£  1 m  kv R      Q    k°  1 b  ho R      Q    hü  1 c  ak R      Q    aù  1 _  ]h R      Q    ]õ  1 T  Za R      Q    Zô  1 U  S] 	R      Q    Só  1 Q  OZ 
+R    	  Q    Oï  1 F  LS R    
+  Q    Lì  1 G  EO R      Q    Eë  1 C  AL R      Q    Aè  1 8  >E R      Q    >ç  1 9  7A R    ˇ  Q    7ã  1 5  3> R      Q    3â  1 *  07 R       Q    0á  1 +  )3 R    ¯  Q    )Ö  1 '  %0 R    ˙  Q    %É  1   ") R    ˘  Q    "Å  1   % R    Ò  Q      1   " R    Û  Q    }  1    R    Ú  Q    {  1    R    Í  Q    y  1   	 R    Ï  Q    	w  1     R    Î  Q    u  1   ˇ	 R    „  Q    ˇs  1 ˝  ˚ R    Â  Q    ˚q  1 Ú  ¯ˇ R    ‰  Q    ¯o  1 Û  Ò˚ R    ‹  Q    Òm  1 Ô  Ì¯ R    ﬁ  Q    Ìk  1 ‰  ÍÒ  R    ›  Q    Íi  1 Â  „Ì !R     ’  Q    „g  1 ·  ﬂÍ "R    !◊  Q    ﬂe  1 ÷  ‹„ #R    "÷  Q    ‹c  1 ◊  ’ﬂ $R    #Œ  Q    ’a  1 ”  —‹ %R    $–  Q    —_  1 »  Œ’ &R    %œ  Q    Œ]  1 …  «— 'R    &«  Q    «[  1 ≈  √Œ (R    '…  Q    √Y  1 ∫  ¿« )R    (»  Q    ¿W  1 ª  π√ *R    )¿  Q    πU  1 ∑  µ¿ +R    *¬  Q    µS  1 ¨  ≤π ,R    +¡  Q    ≤Q  1 ≠  ´µ -R    ,π  Q    ´O  1 ©  ß≤ .R    -ª  Q    ßM  1 û  §´ /R    .∫  Q    §K  1 ü  ùß 0R    /≤  Q    ùI  1 õ  ô§ 1R    0¥  Q    ôG  1 ê  ñù 2R    1≥  Q    ñE  1 ë  èô 3R    2´  Q    èC  1 ç  ãñ 4R    3≠  Q    ãA  1 Ç  àè 5R    4¨  Q    à?  1 É  Åã 6R    5§  Q    Å=  1   }à 7R    6¶  Q    };  1 t  zÅ 8R    7•  Q    z9  1 u  s} 9R    8ù  Q    s7  1 q  oz :R    9ü  Q    o5  1 g  ls ;R    :û  Q    l3  1 h  fo <R    ;ñ  Q    f1  1 d  bl =R    <ò  Q    b/  1 Y  _f >R    =ó  Q    _-  1 Z  Xb ?R    >è  Q    X+  1 V  T_ @R    ?ë  Q    T)  1 M  QX AR    @ê  Q    Q'  1 *  LT BR    Aà  Q    L%  1 J  HQ CR    Bä  Q    H#  1 ?  EL DR    Câ  Q    E!  1 @  >H ER    DÅ  Q    >  1 <  :E FR    EÉ  Q    :  1 2  0> GR    FÇ  Q    0  1 ,  +: HR    Gz  R    H{  O    QAEDT_EntityID_V1 K    < I  <  K< <  7 0   - HŸ   D >I BÜ    ê    ? êâ    t    ç tå    X    q Xè    <    U <í         9  ï         ò    Ë     Ëõ    Ã    Â Ãû    ∞    … ∞°    î    ≠ î§    x    ë xß    ]    u ]™    C    Z C≠    \    @ D  HD D  JA   + I⁄   I >  I  II I  KF   + K @KK I F   - @’   K;  J EJJ D A   - E—   J?  :ƒ   N 0L 4É    B    1 N  :N N  MK   + L≈   R 0  R  LR R  NE   + N 2NN R E   - 2¿   N-  M 7MM N K   - 7º   M1  ,Ø   V "O &Ä    4    # V  ,V V  PS   + O∞   Z "  Z  OZ Z  QO   + Q $QQ Z O   - $´   Q  P )PP V S   - )ß   P#  ö   ^ R }    &     ^  ^ ^  S[   + Rõ   b   b  Rb b  TW   + T TT b W   - ñ   T  S SS ^ [   - í   S  Ö   f U 
+z         f  f f  Vc   + UÜ   j   j  Uj j  W_   + W WW j _   - Å   W  V VV f c   - }   V  p   n ¯X ¸w    
+    ˘ n  n n  Yk   + Xq   r ¯  r  Xr r  Zg   + Z ˙ZZ r g   - ˙l   Zı  Y ˇYY n k   - ˇh   Y˘  Ù[   v Í[ Ót    ¸    Î v  Ùv v  \s   + [\   z Í  z  [z z  ]o   + ] Ï]] z o   - ÏW   ]Á  \ Ò\\ v s   - ÒS   \Î  ÊF   ~ ‹^ ‡q    Ó    › ~  Ê~ ~  _{   + ^G   Ç ‹  Ç  ^Ç Ç  `w   + ` ﬁ`` Ç w   - ﬁB   `Ÿ  _ „__ ~ {   - „>   _›  ÿ1   Ü Œa “n    ‡    œ Ü  ÿÜ Ü  bÉ   + a2   ä Œ  ä  aä ä  c   + c –cc ä    - –-   cÀ  b ’bb Ü É   - ’)   bœ      é ¿d ƒk    “    ¡ é   é é  eã   + d   í ¿  í  dí í  fá   + f ¬ff í á   - ¬   fΩ  e «ee é ã   - «   e¡  º   ñ ≤g ∂h    ƒ    ≥ ñ  ºñ ñ  hì   + g   ö ≤  ö  gö ö  iè   + i ¥ii ö è   - ¥   iØ  h πhh ñ ì   - πˇ   h≥  ÆÚ   û §j ®e    ∂    • û  Æû û  kõ   + jÛ   ¢ §  ¢  j¢ ¢  ló   + l ¶ll ¢ ó   - ¶Ó   l°  k ´kk û õ   - ´Í   k•  †›   ¶ ñm öb    ®    ó ¶  †¶ ¶  n£   + mﬁ   ™ ñ  ™  m™ ™  oü   + o òoo ™ ü   - òŸ   oì  n ùnn ¶ £   - ù’   nó  í»   Æ àp å_    ö    â Æ  íÆ Æ  q´   + p…   ≤ à  ≤  p≤ ≤  rß   + r ärr ≤ ß   - äƒ   rÖ  q èqq Æ ´   - è¿   qâ  Ñ≥   ∂ zs ~\    å    { ∂  Ñ∂ ∂  t≥   + s¥   ∫ z  ∫  s∫ ∫  uØ   + u |uu ∫ Ø   - |Ø   uw  t Ått ∂ ≥   - Å´   t{  vû   æ lv pY    ~    m æ  væ æ  wª   + vü   ¬ l  ¬  v¬ ¬  x∑   + x nxx ¬ ∑   - nö   xi  w sww æ ª   - sñ   wm  hâ   ∆ ^y bV    p    _ ∆  h∆ ∆  z√   + yä     ^     y     {ø   + { `{{   ø   - `Ö   {[  z ezz ∆ √   - eÅ   z_  Zx   Œ P| T/    F    Q F2    8    C 85    *    5 *8    ∫    ' ∫;    »    ∑ »>    ÷    ≈ ÷A    ‰    ” ‰D    Ú    · ÚG         Ô  J        ˝ M         P    ¨     ¨S    b    © Œ  ZŒ Œ  }À   + |y   ” P  ”  |” ”  ~–   + ~ R~~ ” –   - Rt   ~M  } W}} Œ À   - Wp   }Q  Lç   ÿ B ÿ  Lÿ ÿ  Ä’   + é   ‹ B  ‹  ‹ ‹  Åœ   + Å DÅÅ ‹ œ   - Dâ   Å?  Ä IÄÄ ÿ ’   - IÖ   ÄC  >¢   ‡ 4Ç ‡  >‡ ‡  É›   + Ç£   ‰ 4  ‰  Ç‰ ‰  ÑŸ   + Ñ 6ÑÑ ‰ Ÿ   - 6û   Ñ1  É ;ÉÉ ‡ ›   - ;ö   É5  0∑   Ë &Ö Ë  0Ë Ë  ÜÂ   + Ö∏   Ï &  Ï  ÖÏ Ï  á·   + á (áá Ï ·   - (≥   á#  Ü -ÜÜ Ë Â   - -Ø   Ü'  "_    à   "   âÌ   + à`   ı   ı  àı ı  äÚ   + ä ää ı Ú   - [   ä  â ââ  Ì   - W   â  J   ˙ 
+ã ˙  ˙ ˙  å˜   + ãK   ˛ 
+  ˛  ã˛ ˛  çÒ   + ç çç ˛ Ò   - F   ç  å åå ˙ ˜   - B   å  5   ¸é   èˇ   + é6   ¸   é ê˚   + ê ˛êê ˚   - ˛1   ê˘  è èè ˇ   - -   è˝  ¯    
+Óë 
+ ¯
+
+ í  + ë!   Ó   ë ì  + ì ìì   -    ìÎ  í ıíí 
+  - ı   íÔ  Í   ‡î  Í ï  + î   ‡   î ñ  + ñ ‚ññ   - ‚   ñ›  ï Áïï   - Á   ï·  ‹ˆ   “ó  ‹ ò  + ó˜   “   ó ô  + ô ‘ôô   - ‘Ú   ôœ  ò Ÿòò   - ŸÓ   ò”  Œ·   "ƒö " Œ"" õ  + ö‚   $ƒ  $ ö$$ ú  + ú ∆úú $  - ∆›   ú¡  õ Àõõ "  - ÀŸ   õ≈  ¿Ã   = ∂ù =  ¿= =  û8   + ùÕ   (∂  ( ù(( ü>   + ü ∏üü (>   - ∏»   ü≥  û Ωûû = 8   - Ωƒ   û∑  ≤t   +®† + ≤++ °ˆ   + †u   .®  . †.. ¢È   + ¢ ™¢¢ .È   - ™p   ¢•  ° Ø°° +ˆ   - Øl   °©  §c   1ö£ û,    T    õ 1 §11 §‘   + £d   4ö  4 £44 •«   + • ú•• 4«   - ú_   •ó  § °§§ 1‘   - °[   §õ  ñÓ   7å¶ 7 ñ77 ßJ   + ¶Ô   ;å  ; ¶;; ®8  + ® é®® ;8  - éÍ   ®â  ß ìßß 7J   - ìÊ   ßç  àN   ?~© Ç)    û     ? à?? ™<  + ©O   C~  C ©CC ´@  + ´ Ä´´ C@  - ÄJ   ´{  ™ Ö™™ ?<  - ÖF   ™  z   Gp¨ G zGG ≠D  + ¨   Kp  K ¨KK ÆH  + Æ rÆÆ KH  - rˇ   Æm  ≠ w≠≠ GD  - w˚   ≠q  l9   ObØ f&    Ç    c O lOO ∞L  + Ø:   Sb  S ØSS ±P  + ± d±± SP  - d5   ±_  ∞ i∞∞ OL  - i1   ∞c  ^   WT≤ W ^WW ≥T  + ≤   [T  [ ≤[[ ¥X  + ¥ V¥¥ [X  - V   ¥Q  ≥ [≥≥ WT  - [   ≥U  P$   _Fµ J#    f    G _ P__ ∂\  + µ%   cF  c µcc ∑`  + ∑ H∑∑ c`  - H    ∑C  ∂ M∂∂ _\  - M   ∂G  B-   g8∏ g Bgg πd  + ∏.   k8  k ∏kk ∫h  + ∫ :∫∫ kh  - :)   ∫5  π ?ππ gd  - ?%   π9  4   o*ª .     J    + o 4oo ºl  + ª   s*  s ªss Ωp  + Ω ,ΩΩ sp  - ,   Ω'  º 1ºº ol  - 1   º+  &B   wæ w &ww øt  + æC   {  { æ{{ ¿x  + ¿ ¿¿ {x  - >   ¿  ø #øø wt  - #:   ø  ˙    ¡     .       ¬|  + ¡˚    É  É ¡ÉÉ √Ä  + √ √√ ÉÄ  - ˆ    √  ¬ ¬¬ |  - Ú    ¬  
+W   á ƒ á 
+áá ≈Ñ  + ƒX   ã   ã ƒãã ∆à  + ∆ ∆∆ ãà  - S   ∆˝  ≈ ≈≈ áÑ  - O   ≈  ¸Â    èÚ« ˆ        Û è ¸èè »å  + «Ê    ìÚ  ì «ìì …ê  + … Ù…… ìê  - Ù·    …Ô  » ˘»» èå  - ˘›    »Û  Ól   ó‰  ó Óóó Àî  +  m   õ‰  õ  õõ Ãò  + Ã ÊÃÃ õò  - Êh   Ã·  À ÎÀÀ óî  - Îd   ÀÂ  ‡–    ü÷Õ ⁄    ˆ    ◊ ü ‡üü Œú  + Õ—    £÷  £ Õ££ œ†  + œ ÿœœ £†  - ÿÃ    œ”  Œ ›ŒŒ üú  - ›»    Œ◊  “Å   ß»– ß “ßß —§  + –Ç   ´»  ´ –´´ “®  + “  ““ ´®  -  }   “≈  — œ—— ß§  - œy   —…  ƒª    Ø∫” æ    ⁄    ª Ø ƒØØ ‘¨  + ”º    ≥∫  ≥ ”≥≥ ’∞  + ’ º’’ ≥∞  - º∑    ’∑  ‘ ¡‘‘ Ø¨  - ¡≥    ‘ª  ∂ñ   ∑¨÷ ∑ ∂∑∑ ◊¥  + ÷ó   ª¨  ª ÷ªª ÿ∏  + ÿ Æÿÿ ª∏  - Æí   ÿ©  ◊ ≥◊◊ ∑¥  - ≥é   ◊≠  ®¶    øûŸ ¢    æ    ü ø ®øø ⁄º  + Ÿß    √û  √ Ÿ√√ €¿  + € †€€ √¿  - †¢    €õ  ⁄ •⁄⁄ øº  - •û    ⁄ü  ö´   «ê‹ « ö«« ›ƒ  + ‹¨   Àê  À ‹ÀÀ ﬁ»  + ﬁ íﬁﬁ À»  - íß   ﬁç  › ó›› «ƒ  - ó£   ›ë  åë    œÇﬂ Ü    ¢    É œ åœœ ‡Ã  + ﬂí    ”Ç  ” ﬂ”” ·–  + · Ñ·· ”–  - Ñç    ·  ‡ â‡‡ œÃ  - ââ    ‡É  ~¿   ◊t‚ ◊ ~◊◊ „‘  + ‚¡   €t  € ‚€€ ‰ÿ  + ‰ v‰‰ €ÿ  - vº   ‰q  „ {„„ ◊‘  - {∏   „u  p|    ﬂgÂ )    Ü    h ﬂ pﬂﬂ Ê‹  + Â}    „g  „ Â„„ Á‡  + Á iÁÁ „‡  - ix    Ád  Ê mÊÊ ﬂ‹  - mt    Êh  c’   ÁYË Á cÁÁ È‰  + Ë÷   ÎY  Î ËÎÎ ÍË  + Í [ÍÍ ÎË  - [—   ÍV  È `ÈÈ Á‰  - `Õ   ÈZ  Ug    ÔMÎ Ô UÔÔ ÏÏ  + Îh    ÛM  Û ÎÛÛ Ì  + Ì NÌÌ Û  - Nc    ÌJ  Ï RÏÏ ÔÏ  - R_    Ï*  IÍ   ˜?Ó ˜ I˜˜ ÔÙ  + ÓÎ   ˚?  ˚ Ó˚˚ ¯  +  A ˚¯  - AÊ   <  Ô FÔÔ ˜Ù  - F‚   Ô@  ;R    ˇ2Ò ˇ ;ˇˇ 5¸  + ÒS    2   Ò Ú   + Ú 3ÚÚ    - 3N    Ú,  5 -55 ˇ¸  -Q    "  1   + ÛR    1|  Q      1   " ÙR    Ûn  R    Ùl   #5    ı  ı #ıı   -    ı  +  =    R    m  Q      1   
+ ˆR    o  Q    
+  1    ˜R    ˆp  Q      1   
+ ¯R    ˜v  Q    	  1    ˛ ˘R    ¯w  Q    ˛  1 ¸  ˙ ˙R    ˘}  Q    ˙  1 ¯  ˆ˛ ˚R    ˙~  Q    ˆ  1 Ù  Ú˙ ¸R    ˚Ñ  Q    Ú  1   Óˆ ˝R    ¸Ö  Q    Óˇ  1 Ï  ÍÚ ˛R    ˝ã  Q    Í˝  1 Ë  ÊÓ ˇR    ˛å  Q    Ê˚  1 ‰  ‚Í  R    ˇí  Q    ‚˘  1 ‡  ﬁÊ R     ì  Q    ﬁ˜  1 ‹  ⁄‚ R    ô  Q    ⁄ı  1 ÿ  ÷ﬁ R    ö  Q    ÷Û  1 ‘  “⁄ R    †  Q    “Ò  1 –  Œ÷ R    °  Q    ŒÔ  1 Ã   “ R    ß  Q     Ì  1 »  ∆Œ R    ®  Q    ∆Î  1 ƒ  ¬  R    Æ  Q    ¬È  1 ¿  æ∆ 	R    Ø  Q    æÁ  1 º  ∫¬ 
+R    	µ  Q    ∫Â  1 ∏  ∂æ R    
+∂  Q    ∂„  1 ¥  ≤∫ R    º  Q    ≤·  1 ∞  Æ∂ R    Ω  Q    Æﬂ  1 ¨  ™≤ R    √  Q    ™›  1 ®  ¶Æ R    ƒ  Q    ¶€  1 §  ¢™ R       Q    ¢Ÿ  1 †  û¶ R    À  Q    û◊  1 ú  ö¢ R    —  Q    ö’  1 ò  ñû R    “  Q    ñ”  1 î  íö R    ÿ  Q    í—  1 ê  éñ R    Ÿ  Q    éœ  1 å  äí R    ﬂ  Q    äÕ  1 à  Üé R    ‡  Q    ÜÀ  1 Ñ  Çä R    Ê  Q    Ç…  1 Ä  ~Ü R    Á  Q    ~«  1 |  zÇ R    Ì  Q    z≈  1 x  v~ R    Ó  Q    v√  1 t  rz R    Ù  Q    r¡  1 p  nv R    ı  Q    nø  1 l  jr R    ˚  Q    jΩ  1 h  fn R    ¸  Q    fª  1 d  bj  R      Q    bπ  1 `  ^f !R       Q    ^∑  1 \  Zb "R    !	  Q    Zµ  1 X  V^ #R    "
+  Q    V≥  1 T  RZ $R    #  Q    R±  1 P  NV %R    $  Q    NØ  1 L  JR &R    %  Q    J≠  1 H  FN 'R    &  Q    F´  1 D  BJ (R    '  Q    B©  1 @  >F )R    (  Q    >ß  1 <  :B *R    )a  Q    :•  1 8  6> +R    *b  Q    6£  1 J   3: ,R    +Z  Q    3°  1 «   06 -R    ,[  Q    0ü  1 ‘   -3 .R    -“   Q    -ù  1 È   *0 /R    .”   Q    *õ  1 ˆ   '- 0R    /Ø   Q    'ô  1 >   #* 1R    0∞   Q    #ó  1   !' 2R    1{   Q    !ï  1   # 3R    2Ö   Q    ì  1   ! 4R    3Ü   Q    ë  1    5R    4å   Q    è  1    6R    5ç   Q    ç  1    7R    6ì   Q    ã  1   	 8R    7î   Q    	â  1    9R    8ö   Q    á  1 ˚   	 :R    9õ   Q    Ö  1 ˇ   ˝  ;R    :°   Q    ˝ É  1 Ò   ˘  <R    ;¢   Q    ˘ Å  1 ˜   Ù ˝  =R    <®   Q    Ù   1 Ú   Ô ˘  >R    =©   Q    Ô }  1 Ì   Î Ù  ?R    >∂   Q    Î {  1 ·   Á Ô  @R    ?∑   Q    Á y  1 Â   „ Î  AR    @Ω   Q    „ w  1 Ÿ   ﬂ Á  BR    Aæ   Q    ﬂ u  1 ›   € „  CR    Bƒ   Q    € s  1 œ   ◊ ﬂ  DR    C≈   Q    ◊ q  1 ’   “ €  ER    DÀ   Q    “ o  1 –   Õ ◊  FR    EÃ   Q    Õ m  1 À   … “  GR    FŸ   Q    … k  1 ø   ≈ Õ  HR    G⁄   Q    ≈ i  1 √   ¡ …  IR    H‡   Q    ¡ g  1 ∑   Ω ≈  JR    I·   Q    Ω e  1 ª   π ¡  KR    JÁ   Q    π c  1 Ø   µ Ω  LR    KË   Q    µ a  1 ≥   ± π  MR    LÓ   Q    ± _  1 ß   ≠ µ  NR    MÔ   Q    ≠ ]  1 ´   © ±  OR    Nı   Q    © [  1 ü   • ≠  PR    Oˆ   Q    • Y  1 £   ° ©  QR    P¸   Q    ° W  1 ó   ù •  RR    Q˝   Q    ù U  1 õ   ô °  SR    R  Q    ô S  1 è   ï ù  TR    S  Q    ï Q  1 ì   ë ô  UR    T
+  Q    ë O  1 á   ç ï  VR    U  Q    ç M  1 ã   â ë  WR    V  Q    â K  1    Ö ç  XR    W  Q    Ö I  1 É   Å â  YR    X  Q    Å G  1 w   } Ö  ZR    Y  Q    } E  1 {   y Å  [R    Z  Q    y C  1 o   u }  \R    [   Q    u A  1 s   q y  ]R    \&  Q    q ?  1 g   m u  ^R    ]'  Q    m =  1 k   i q  _R    ^-  Q    i ;  1 _   e m  `R    _.  Q    e 9  1 c   a i  aR    `4  Q    a 7  1 W   ] e  bR    a5  Q    ] 5  1 [   Y a  cR    b;  Q    Y 3  1 O   U ]  dR    c<  Q    U 1  1 S   Q Y  eR    dB  Q    Q /  1 E   M U  fR    eC  Q    M -  1 K   H Q  gR    fI  Q    H +  1 F   C M  hR    gJ  Q    C )  1 A   9 H  iR    hP  Q    9 '  1 8   3 C  jR    iQ  R    j|   R    : h  Q    2 !  1  kl .  mR    4 i  Q    k     n2    oQ    lz	  p 2 $   qR    md  P    prsh                       Q    $ {	  t l   uS    q‡?      ?      ?P    tvwi                       S    u        O    wSDL/TYSA_TRANSLUCENCY_2O    sSDL/TYSA_COLOUR_2Q    n  P xk   yT    oViasP    P z(#                      Q    x  { |n   }R    y    ˇˇˇˇˇˇÄÄ   P    {1 ~(#                         Q    |    x  ÄT    }pecP     Å(#                      S    Ä        O    ÅAEDT_Translucency_V1O    ~AEDT_MaterialName_V1O    zAEDT_BODYFlagGroupColor_V1J    &         |xnk]l$              P    # ÇÉQ             T    % ViasO    ÉSDL/TYSA_NAME  $end 'x_b'
+$end 'Design_0.setup/NativeGeometryFiles'
+$end 'AllReferencedFilesForProject'
+$begin 'ProjectPreview'
+	IsEncrypted=false
+	Thumbnail64='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\
+BAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAg\
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCABgAGADASIAAhEBAxEB/\
+8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQR\
+BRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUp\
+TVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5us\
+LDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAA\
+AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
+CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
+3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
+Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooooAKKyde17Q/Cuh614n8T6zpPhzw\
+14c0nUde8Q+Ide1Gz0fQ9B0PR7ObUNW1nWtW1CaO30vSbWwt7ie5uZ5I4YIYHlldUVmH4bf8FM/29NJ\
+8bfDn4Zfsy/sZ/Ev4h678Y/2nfi94Q8FeH/ib+z/AA67piRfDPwze23i34u+KPgd8fr660bwX4z8R6f\
+Y6daaLfx6X4uKabc6ze2Or3Wlz2t0IJc4xaTklJ7K+rt2W7+REqkItRlNKTu0r6u29lu/kfu/XKeOPH\
+ngb4ZeF9U8cfEjxn4U+H3gvRPsX9s+L/HHiLSPCfhfSP7S1G00jTv7U1/Xry3tLD7Rq1/Y2sHmzJ5tx\
+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\
+1cm2+4UUUV6xsFFFFAH//2Q=='
+	$begin 'DesignInfo'
+		DesignName='HFSSDesign1'
+		Notes=''
+		Factory='HFSS'
+		IsSolved=false
+		'Nominal Setups'[1: 'Setup1']
+		'Nominal Setup Types'[1: '']
+		'Optimetrics Setups'[0:]
+		'Optimetrics Experiment Types'[0:]
+		Image64='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\
+BAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAg\
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCADIAMgDASIAAhEBAxEB/\
+8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQR\
+BRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUp\
+TVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5us\
+LDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAA\
+AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
+CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
+3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
+Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooooAKKKKACiiigAooooAKKKKACiii\
+gAooooAKK8m+KXx3+DfwTTRx8VPiT4R8Faj4nTVR4M8Natq9ufGvxCvdGFgL7Q/hp4EtGl1n4l+KfP1\
+bR7eDSdBsNR1O6u9asrO1tJrq8tYZfnnVP2mfit4+ZovgD8GXsPDc6PaD4sftISeLPhLbo96iWsXiDw\
+Z8BW8LSeMvGqaPqcOrjU9H8XD4VHVPsFiPD+uXml6sNf0/KdanBtOV5LotX9yu0ttXpruYzr0oNxc7z\
+X2VrL7ldpbauy1V2fb9Ffy8/8ABVH49/tx/DTWf2d/hJ4Y/aX+LtxrH7Ud58QbDxd4f/Ze+GXgbwLqP\
+h7R/hPqXwq17ULz4F6dNHqnjy08QzeA77xZJPZT/Ei6m1TXJo1tLzSdFlfRV+4f+Cdf7cuueJP+Cafx\
+O+Jfj7XI/jN8X/2I9A+Nfgz4oagPGf8AacnxTv8A4G+H9W8VeE/Ekfjx49Sk1Wz8R+B4PD5/4SFk1AX\
+t215fg3jB1Yp1VUv7rg10drtd1ZvTp6phSrKrzLlcJR6StdrTVWbTWtt9/kftLRX4bfAn/gsl4t+J/j\
+r9kax+I/7EXxE+Cvwe/bOuD4a+EPxn1T4peFPFlpqXxAtrCP7fow8F6Z4ftr638Ktr8gtdP1e/k0+fU\
+rSRNTg0lbfzkg0NJ/4LGaz4r/aJ8afCv4f/ALGvxI+Ivws+HPx61X9n7xv8R/BHxJ8F+Jvi7oniHQdZ\
+bQdc8Yf8Mm6JY3PjG6+HFreR3E8msKBbrZW0jvsvY5LBNTY/bmivyx8Uf8FO9D+HPiH/AIKLeFfij8K\
+/+EL139gzwZoHxF0W1/4T5dSj+Pfgvxr4dvdW8Danok8vgy1Hg+7vdbPhzSLmHGrx2N94nhjNxcNFIl\
+eDfFb/AILDeOvh/q/wL+Hfh/8AY0u/GPxw+Kn7NHhP9p/xb8M9U/aN+Hvwyt/BPhPxjPdxaf4Q8JeIv\
+iF4bspvjB8R4VsrgXGjaTpcN40oMFnFdvFdG3AP3HorzH4L/Ep/jF8KfAfxPl8DePfhnceNfDljrd38\
+P/ih4a1Hwf4/8H306sl94f8AFHh7VYI5rHUba8inj3bfKuI1S5t2kt5opGKAPTqKKKACiiigAooooAK\
+KKKACiiigAorlPHHjzwN8MvC+qeOPiR4z8KfD7wXon2L+2fF/jjxFpHhPwvpH9pajaaRp39qa/r15b2\
+lh9o1a/sbWDzZk824vYYI90siK3ytqH7Xms+KQbX4D/s//ABU8dyzIsUPjL4v6Tq37L/ww0rVoJPtWp\
+aN4mi+Knh4fERHGiiF7PUNC+GniHRLu/wBVtNObVLbydbudEznVp09JSs303frZXdvkZzrU6bSnK0nr\
+ZXcrd+VXdvO1j7Urz74kfFr4VfBvQ7TxP8X/AImfD74VeGr/AFaDQbHxD8SPGfhzwNod5rl1Z32oW2j\
+WmreJ9Stbe41aSw0vU547ZJDM8OnTyqhSGRl+NdR039pT4k7z8SfjrF8OPD135xl+Hf7Nnhq28KzzaN\
+reP7a8F+NPjZ8QDrniLxJLaWKR2OneKvA1p8JtaU3F/q0Vtp99caVF4fs+BvgV8J/h1r154x8NeDbGT\
+4happkui658VvFN5q3j34yeJ9GkuLG4TSfF3xk8d6hqXijxdpkP9k6LDbQanq93FaWugadZWyRWmn2U\
+EGMsRJ6Qp2XeT/JK7fzcWYPEzekKfKu8n+UVe/zcWdRqH7V3xB8WMV+BX7N/i7xBpxdbm08dftA6/N+\
+zT4F1vTYU+zanbaT4evvCXiT4k6Z4ph1txBDa+IfhxoGm3trpl9qVrrUlq2inXOG1DwZ8dfiEDH8ZP2\
+kPEbaPIi2d74G/Zw8PT/s3eD9asrWT7dpt/qPiyDxb4k+JWj+KY9YdJJ7jw98RtB0y9s9LstNutFe1k\
+1oa37XRWMnOfxzb8l7q81Zbryk5aadXfGXPP+JUcvJe7HzVla6faTlppfV382+H3wd+F3wqk1u6+H3g\
+Tw54Y1jxW9jceNfFFlp8U3jX4g6lp5vpINf+JHjm983WPiN4pe61XV7i41bXL7UNSu7vWby8urqa6u7\
+maX0mivFvFv7Q/wAHvBviDUPBt94v/wCEg8eaP9kk1v4cfDfw/wCKPi58TtAsr2yttRttZ8Q/DT4V6J\
+rOvaB4ca1v9KP9p3mnQaer63p8TXKy6hZJPLcIJXahH5JEt06UVdqnHpsl39D8tf2o/wBjLSf2sv8Ag\
+oro4/aV0nw38Rv2efCn7Lesy/D/AMA+GvGvj/SvEHhHxg/j/wAGxJ4r+J6+GE0o+GJPEcmpeP7Xw9HF\
+qt1FrVt8ItRl2LLo15FFk/A/9hTX/wBnL47ftd/s+fAXUvA3gz9m79vv9jv4peB/hr4S8V+JvHnl+Cv\
+2hvBXgOz8OaPoU+v+IIdan8QT6nonjb4k+JEggu59Vl0bw74kuIdN+xeE1+1fRUnin48+Nf2sPi3/AM\
+IX8NtM+DN5cfs8fs1WOs6p8e7/AEHxhq+gWth8Sf2s7/SNY0D4cfBDx9qFh4+03UpbjV9OlW88d+FLv\
+SZbMaj9l1aFY7K7+Jf2+RB4P8VfBPwRrv7aXjjwp+098U/Fvg7WvAOueMfin4a+B37KPwatPhv8S/CH\
+xV1X4t+LvAX2mw0ebQdDufCWu2nhO08Uah4p8Q6lea1bafPqPiLUdM0y80/SjVqTS5U7Xa1VlZO1rOz\
+u7b2sm/KxdGtUqRvCLspPdWVou3LZtNuVt7WTe942P0aT/gnH8bl+F/8AwSS8E/8ACUfCr+1f2CviB4\
+L8V/GC4Gt+Lf7P8Saf4d0W006/h+G0v/CDeZrF69xA7RLqkWjoykF5EbKj5k/ae/4JAftY/tG/GfxJq\
+Wr/ABI/Y+PhHXfi5YfEHQ/2o7f4Par8Of26Ph94bsNZsNT03wfpmq/CHSNG8NeNrrT7KyWzt9X1tpdT\
+nAFw1xat5MNv6vo3xv8AinB/wUI8WaD4m+M3xE8PvY/Hz9ozRPiJ4Cm8VaivgH4efsS+FP2OfC3jP4U\
+fGiz+H+rJc6D4etj8aJYJLfxc2ntNqepapqOj3V3eW1tJZW/z98L/AI4yfF79mP8Aaw8UfCP9unXfCP\
+wX1X4q/sn+EvA3jn42ftDfEz4rfGr4ZeEdI+JcGmfFv42fFy/+EXiBfFH7OXh/4mDS76z0/R7nUfBWk\
+6VYaNeX32rwZZX8ktl3HoHG/wDBRT4Y+B/22v8Agqt8DP2evgdr3izU/EknhfTPhb/wUQ0a28G+KtH8\
+K6b8Bfh14+8AftCeErfxJ4o1LRILDV7/AFKe3lhsrizkuYjeLo1k1yC5tq/Q3/gox+wZ+0h+1F420TW\
+fhfN+xl8SfhyngObwbL8JP2v/AIQXN7H8OdZmvGkuPiB8I/i38KPD8Xi/TNTnsfssb6Vc6oulJLY+f5\
+c3mxx2eZq/xe+IUv8AwRe+O3xP0fU/Gngbxv4Y+Dn7SA8IfEHS/iZ8ZfEWv65H4R8X+PNL8KfGHwL8R\
+/iz441rxpF4f17TtPsdd0B9R16/ubDTdZs7Wxv59Pt7KZ/jS9+Ov/DPF5+1dpn7XHxi/aI/Z38L+Dvh\
+d+zj4h8J/Afwb+2R8Zvjl40+OcureLdXuj8Rvg5+0v8AHWCx8Q+DfCfiXWLjT/B/iTTtFk8PyaAuh3V\
+9d6rpcTxXjAH7c/sJ/s3a9+yH+yb8GP2dPE/xAu/ihrvwy8P6jpuo+MrpLqKK8m1bxHrXiMaVpMN9cS\
+zQ+HdMi1mPTNMSV9y6fo9svlwgCGMrJ/4J86v4r139j74M6v43+LHhj41+KL/TfE91qXjvwj8S9L+Mu\
+jeXP458Ty6X4Lb4r6PeXEHxE1jwvoz6f4Z1LWBPNLqGoeEbq5nmlnkkkYoA+zKKKKACiiigAooooAK5\
+Txx488DfDLwvqnjj4keM/Cnw+8F6J9i/tnxf448RaR4T8L6R/aWo2mkad/amv69eW9pYfaNWv7G1g82\
+ZPNuL2GCPdLIit8LftufHf4s/DPx78E/AHgbxNF8P/h5408JfFbx18bPiboWhaFrXxS+Hvg/4feO/2e\
+fA+meKPAkvj3TdU8J6P4csdc+NsGo+OL/xLomo2uneB9B17VLGWy1KwtZJJ/DfwK8EaN4n07x94gufF\
+3xS+JelPqF3pnxE+L/jHX/iN4g8Oatr9lc2HjDVPhvpniG9k0b4IprkF3Mmrab4E0rwxolzbxWtgulx\
+abp2m2VnyzxFpzpwjeVO129ErpNW3b0e2na6OSeK/eVKVOF50rJtuyXMk00ldvR/3U2mr9vQdR/bL0P\
+xDvtPgJ8K/ij8dJpfOt7bxja6F/wqz4K20t5iPwp4mf4q/Fg6UPiN8LtScT3Q8Q/DHS/iMI9JsjqUFh\
+eC/wBBt9Z4fUNQ/a0+IjGXxH8W/CP7PejyOt5a+GP2fvC2jfETx1pV7aJ9gWw1b43fH3wpf6J4z8LXk\
+TXeoTW9r8KfDOp2d1NY2MOtXNrpt7ceIPXKKycqkviqO3aPur8Pe++TXltbJyqz+Oq7do+6vk173ycm\
+vLa3ivhf9nj4QeFfE+m+O4/Ctx4t+Iuhpd2+gfFH4r+KfGHxr+LHhzTb2yvNPudA8NfFT4wa/rniHw5\
+4Wa21PWcaTY6nBpqSeINSmS1WbUr+S49qorzn4gfF34Y/Cz+yYviB458OeGNS8R/b4/CXh6/1GF/F3j\
+i9037Etzo3gDwbaGTVfH3iMz6npcEOmaNZ32oXN1q1pa21tLc3VvFJFoQT0UI/JLt/wCLU6UW7KnHrs\
+l216dkejUV85/8AC1/id49/0P4RfB/xHo+m3vFp8VvjrYzfDnwja2R/0DUNR074UXN0nj/XvEdhq0pe\
+HQ9c0LwRp+uW2jXklt4v0+2uNJvtRP8AhR3i7xd/pHxi+OfxG8Teb+/fwl8JdR1P9nX4faZqdv8A6JY\
+6p4fufhzrn/Cef8grzhd2GtfEDXdIub3Urm+XTrfydHt9Innv8EXLz2X3vdeaTRPtHL+HBz89o+t3q1\
+2cVJM7Xx38cvhP8N9XtvDHirxppsfje/02HWNI+GugQaj4z+LHiHSJrq8tTqvhf4T+DLLUPEninTY20\
+3VpLifTtLuora20S/u7horWxu5oeK/4WR8bvG/7v4afBb/hDtGuPki8e/H/AF+38L+Zpmq/Lovi/wAJ\
+fCPwSNY17xF9ntVlvb/w54vufhlq6+bZaZJPY3k+pSaH6x4E+G3w6+F2kXPh/wCGXgHwV8OtBvNSm1i\
+70TwJ4W0PwjpF1q9xa2dlPqtzpvh+wt4Z9Sez0+whedkMrRWMMbMUiQL2lHLOXxT5fKP+b3+SQctWXx\
+VORdor8HJ3v8oxZ85/8M9/8JV+/wDjV8UfiN8W/O/e3HhD+2P+FafCOD+0Pn8S+G/+Fc/DMab/AMJ/8\
+Ob7bDa/2J8Q9R8d+Xplr9gmvbr7drM+q+0+EvB3hHwD4f0/wl4E8LeHPBXhXSftf9leGfCWh6Z4c8P6\
+Z9vvbnU77+z9G0e1htrPztSvLy4l8uNfMnu5JXzJIzHo6KqMIxd0te+7+ber+bKjThB3jH3n1esn6yd\
+2/m+i7H4gftY+M/C/hj4q/Gv4jeO9O8e32o2Xx3+HX7N2i+LtJ/ae+Ov7Kvwt+Hvw2079mfwD8c9HPx\
+g8Y/ArUMDRo/iP8U/iX9g1PVNF1W7F98Q005r6106O1it/IvG9hd2t7+wF8UPCHgH4ia7pfxg/aE0D4\
+f2mmar/AMFYv2up5oPHnxM+Hfxz+HuhxaB8SfhtrnjCz0vwGI7y01hvFvh/UBrtzYLN4butAhtdV1eK\
+P71sPhi/xk8WftFeLtC+JnxP+Gun6h+1HrN94O8X/DPXNH06TXh8O/gX8Jv2b/iPpHiXwb448Oaxo3i\
+bRbX4n/DD4iaYtvr+g3KNceGItY0g/ZZ7DUbnJ+GP7GPwtsfj9+xr8CrDXfiDZeAvgZ4c+Pn7U/h60g\
+13SfN8R/GXwN8eP2Z9d0zxF4utJfDzWE4ku/ir8QomGnWWmy2ln4svrHSptOs7maF9KckqUG9bz032d\
+TR+mzXdeW+lKSVGDevNU01e0qvuvfbVNdGvLduu698NPCXw0/aR8ZeJ/Bf7VUXiX9mv9o74B/s4eIfD\
+Og/8FXf+Cg2r6H4j1z4zXH7Oljq3iPRfFeofEbT7iHSdHv8A49XAtop9HWbVofCCSy/2U+pNDp/E+F/\
+iH4Oubbwr458dfC39pzwx8E/iF+0N8Yv2ZPBHjjw5/wAFev8AgoT4x8ZR/Ev4YeIPih4a0JvHfw81Dx\
+bo0Hhnw74h1b4V6vDbXWm67r72EmqWgvIAjvIn6b+Of2BPhZ48+JPi/wAc3/j34v6T4V+JXxN+Fvxl+\
+KfwR0PXfB0Pwj+JXxN+Dh8It4G8VeI7bUvAd14h0+WKTwB4Je8tNG8Q6Vp+pSeF7V9QtLhxIZOW8Kf8\
+E3fhh4dv9Jh1X4v/AB58c+AfC3xX+KXxw8DfCPxZqfwmh8AeCvir8Wr/AMd6lr3i/TZfB/wg0nXvEF5\
+ZXnxJ8XPpEGv65rFpYPqCSJbvLBC6dx3n5bfDP9oL4QfED9mr4nftKJcXurWvw7/Zm1n9oef4MfCr/g\
+vV+378Ufj3pM2n2OkahbeC/ij8PxJpK/DJVS/ubTUtRN7qh07U4reyXT7wXLT2/rniHxN4KvW8Y2vwp\
++H37S/ibVvh3+ytpf7T3jrSviP/AMFcf+CiPw0uNANh41+MngD4ofCdj4b8WeLPO8e+HPFPwe1KyLMI\
+rG/urmdDcWUVpHPe/d/h/wD4J5aPpH7O2v8A7KGsftQ/tM+NfgFrHwOvvgDpngPxLb/sx2h8JeDrnSL\
+PQLDUvD/inwd+zRpOs3Piaw0a0aC1m1XUdTtXF3LJfWV5MIpYvSLn9h/4PTfEz9oX4qW+peOtN179pf\
+4KWfwM+IWm2Os6OPDtl4etbPXLGXxJ4T0268Oyvovi+5j165kupWmuNPnuYRdtpv2qe9mugDH/AGDNB\
+v5/gronxb1bw14t8G3Xxr8OeB/HOj+GvEX7aH7TH7ZlvZ+CtX8LWfiXwtcf29+0bbWbeA/FL/8ACU6p\
+Dq2n6HYm0n/s2ykn1XU/Kto7Er6l+GPgDRvhR8Nfh78LfDtzqd74f+Gvgfwn4A0K81qa1udZu9G8HaB\
+p/h3TLnVrixsraCfU5LLToHneG3giaV3aOGJCEUoA7iiiigAooooAKKKKAPiX4kSprv7anwxh0pvtUn\
+wr/Zc+MsvjxcGD+wk+PvxY+Ba/CVs3IQap/azfs1/GriyNwbD/AIQv/iZ/Y/7R0n7f5l8KLYfCrxPrf\
+7N8wNv4a8E+G/DuvfAGS4yZb34IR2Vl4YfwY+qXQhk8U+JPBXizT5tNvpIYLiWz8L+L/h9ca9qup+It\
+b1C9uPQn/wCT4vjt/wBmpfsf/wDq3v25q4T9rDS7PxDYfAzwrDJqVh4x8UfH/wAM6V4J8Q6brOr+H5P\
+DsEHgf4ia18ZJv7a0G/hvdI1HUv2ZtJ+OWgaTeWiyXdjrnjDS72zm0i7t4Nf0jy6uk51V8XM/mtIWXr\
+yp/wCLstvFqyaq1Ky+Lnat3V1DlXm+WLXeVtlt6J47+JPw6+F2kW3iD4m+PvBXw60G81KHR7TW/Hfin\
+Q/COkXWr3FreXsGlW2peIL+3hn1J7PT7+ZIFcytFYzSKpSJyvk//C6PHfjX5Pgn8F/EevQW/wA2oeJ/\
+jqPGf7NPhGOaLi70HTtN8W/DbUvGereIwl3pNxDOngtPDE9tNeRr4oXVbCTSpO18CfA34T/DfV7nxP4\
+V8F6bH43v9Nm0fV/iVr8+o+M/ix4h0ia6s7oaV4o+LHjO91DxJ4p02NtN0mO3g1HVLqK2ttEsLS3WK1\
+sbSGH1ei1R7yUF5av72rf+S/M1tVl8UlTX93V/+BSVvlyfM+c/+FPfE7xfx8Xfj54jv9Nb/Rrvwb8Ct\
+Dm+AHhHV7KD/StPu9R8Q23ifX/H+meI49WcSzXGh+PdF0+7ttOs7C50l7ZtWGsejeAPhF8MfhZ/a0vw\
+/wDA3hzwxqXiP7BJ4t8Q2GnQv4u8cXum/bWttZ+IHjK7Emq+PvEZn1PVJ5tT1m8vtQubrVru6ubmW5u\
+riWT0aimoRTva7XV3b+93Y40qcWpKN5LZtuTXo5NtLyvbV9woori/HfxJ+HXwu0i28QfE3x94K+HWg3\
+mpQ6Paa3478U6H4R0i61e4tby9g0q21LxBf28M+pPZ6ffzJArmVorGaRVKROVptJXbskW2opuTUUur0\
+R2lFfImp/tV3Gtqbf4P/B34h+NJZERIvE3xH03UvgD4A0/UYpDPf6Xry/EPRR41RxpQje2vNI8Ca1pV\
+zd6jbWTahB5eqz6V5vq8Hxi+IrSz/Eb4sa74X0a+4m+GPwRu5PAXh+1slmOo6dZ6h8VYLZfHOs+I7PU\
+JI4p9Z0TWvBun6zbaRbRz+FbC3uNVsr/yMVnmXYZNe29vP+Wn73435V9/yPAxvE2U4K6+sfWai+zStP\
+75XUF/4FfrY+uviJ8Yvhb8Jo9MPxG8e+GfCV5ryaifC+h6nqcA8VeNLnSls/tmk+A/CFu0mqeO/EHm6\
+jpkMWm6PZ31/cXOq2lrb20txdW8UnM/BT9o/wCC37RFn4kvPhB42h8Ut4P1Ky0rxTpl1oniXwp4i0G6\
+1OxXUdKl1Pwv4y0bT9StdNvLTzjZ3jWn2S7ewu4raeWWzukh+Z/Dfw98D/DiDxBqXgnwRp1prWtRJfe\
+JNR0u2sX8a/EDVNPS+uLe98XeL9auku/Gfiie7v8AUHfUtc1Ga5uLvVri6vL0y3FxO3lH/BJfT7M/Dn\
+9pDX5bfSLzxBfftR+NdFu/Fdn4UsfDN7rnh3SfCHgXWvDVinlabbXM/hGzn8Wa7JoMNzHClrYa0BbWW\
+nxTGzi6MpxzzTDY3FexdGnhqtCnHVSu6tPETfPs4v8Acpwe0rTSUmm4fK4DjnE5lxplfDdHCUqODxmA\
+x+MqObqe3/2WrgKUHSkkqUlzYtqtCzlFSpS54e7Gt9Cfs0f8iD40/wCzmP2zP/WvvjlXsPwaspfEn7a\
+SalYtHFB8GP2XvE1l4oS7LRy38v7TfxX8Ez+A20BYUkF1HaJ+yT8Rxq5uGtTbnW9E+xC/FzfnTfFv2R\
+5Hvv2Zfgh4nuj5uufEb4d+H/i94yvsBP7Z+InxltR8VfiT4h+zRgQ6f/aXj7xj4jv/ALJaxwWNn/aP2\
+WwtrWyhgtovff2ZP+TuP2mP+zcv2Pv/AFZn7bdejSX7vCRez5f/ACWDkvxij9Joq9LBQe0uS/8A27Bz\
+X4xXyP0NooorvPRCiiigAooooAKKKKACiiigAooooA+EPh7K+vftG/tm+JdVb7VrXhr4mfCj4K6Je4E\
+H2L4ZeEv2cvhP8ZPD/hr7NbBIrn7P8SP2iPjFqX22aOTUJf8AhMPsc93JYafpdrY87+0N/wAlD/Y5/w\
+Czk/En/rIn7VNbPwJmXxD4t/ao+JdkGi0L4kftSeNodDtLoBNXtG+BHgf4bfsk+Ljq0EReGBbn4j/s8\
+eNb3TfJuJzNomqaXc3Qs7+e702y5/4gf8nb/Aj/ALNz/ar/APVmfscV5VR3i2tVKomvR1U1+B4U/eu7\
+3UqqafdOtdferWPcKKK/Oa6+NPxO+MfxM+NHhXwF8YLDwB8O/hZ49XwdpOpfDzwJ4dn+Juoa5oGk22i\
+eMrDxPrHxc/t7T10W2+Ill49sglr4KsRdr4f0y60vxNeQLqltMYiqsNhsRipwlKjhYqdTlSbjGVSFJS\
+s2tPaVKcfWS6HDnXEOVcPrL/7TxHsZ5tXeGw0EnKVavHD18U6cUtE1h8NXqNycY2ptX5nFP728W+MfC\
+PgHw/qHi3x34p8OeCvCuk/ZP7V8TeLdc0zw54f0z7fe22mWP9oazrF1DbWfnaleWdvF5ki+ZPdxxJmS\
+RVPzjqn7Wnh3VN9t8H/AHxA+L9w/2iCDxLaaR/wr/wCFlvNPiPw7rknxE+Ip05fG3w/v3E1wNa8BWHj\
+cJp1qb6KzuheaRDqnjei/B34eaLr9h4vbQ7nxP420lLiDR/H/AMRvEPib4qfETRLC6trq0m0bQviD8S\
+9Z1bWtE8PmG/1TGnWt9DYq+s30q24lvrt5vTa+PxPFNWV44TDqmv5pvmf3KyXzbPk8ZxtXneOBwsaKf\
+2qj5pfKKtFfNyOL1S8+Pnj3ePGnxah8BaHc/aBJ4K+BehQaBcS6Vq+P7S8L+Kfit4zOra1rU1tZqlpY\
++IfCVt8OdUVp7zUo4LO7m06PRqPhf4VfD/wfrN14o0fw5bzeNNQsX0vV/iJ4iu9S8Y/E7XtMaW0lTTv\
+EnxN8XXl9r/iSxiGnaXFBDf6lcR29vo9lawLHbWdrFF6FRXz2IxuLxbbxGIlUT6N+78oqyXyR8ni8yx\
++Od8Xip1lvZv3V00irRXyXfuwooorlOI4z4j3EFp8PPHl1cyeTbW3gzxRcXE39k6fr3lQQ6HfSSyf2H\
+q0sdrrW2NWP2S5dLe5x5MzrG7EeB/8ABOHxdF8Lf2Dviz+014x0+yPhHxD4t+Of7SDaB4G0qwttatvD\
+nhPQ7bS/Fuk/2ZMbGyk8RP4l+G/i9rFFuorF7O701UbSbcjS9M9S+PKzv8JfGAtJ9Ft7sW2mNaSeIrX\
+wdeaI12muaY9rBqUPj68g0lLaW4WOMy3Ls0BlE9rDcXkdvby+L/BhfL/4IrfEWIQXlqsH7M/7YNvFZ3\
+919pu7KG3u/jRBBYyq15cPp3kQxpEthNcXFxpqwrp9xcTz20kr/pXDdKdPhirioVoctTG1oSgoXqp08\
+PQlCTqcl1Sl7Sf7t1GpzpqXInS5n5/BlfD1fF7M8NVwlZ4rLuG6OJw9Z1bYf9/mOJo14LDuq1PEQVKl\
++/VCLo0q0qbrSWJ5I/bvwF8Cav8AC34GfBf4ZeILnTbzXvh18J/h14E1u70ea6uNIutX8I+D9H8P6lc\
+6VcXtnbzT6a97p8zQPNbwStEytJDE5KL7X+xL/wAjH+2n/wBnW6F/6xr+yJWZXR/sLWH27wZ8b/ib5v\
+lf8Lb/AGnfi7f/ANibN/8Awj//AApGTQf2RfK/tLeP7V/tP/hnH/hId32e2+xf8Jl/ZOLv+zv7Tvvch\
+FKdGEfsXfyUXH82vv8AU/pSMVGeHpx+xd/9uxi43++UV319T7dooorqOwKKKKACiiigAooooAKKKKAC\
+iiigD8/v2V/+Sd+PP+zrf26P/W1/2gaxdYf/AIST9ryGPH2L/hTP7N7PnP2j/hJP+GmfidtxjEf9j/2\
+J/wAMl/8AT1/aX/Cf/wDLh/ZX/EyvfsUs1z+yD+zHrFyzXGr+K/gT8L/HXijVZyZdS8SeNvH3g/SfGn\
+jrxjr99ITLrHirWvGOva5q2rahcNJd6lqes3d/eTTXVzNK+bYf8ngfGv8A7Ns/ZY/9Wh+2PXkR1p0F0\
+fL+EXJfikzwYe9HDLpLl/CLkvuaT+XY93r8qPgPo0uleLP2kXlurm8E/wC0d8Zzb7p7S8tNJt734oeN\
+vEo0GC7l0m1vUuVuvEt1qUtr/pGlWy+KYRY3M2pSa5I36r1+QP7EOuXXib9nbwT4i1bXj4o8S65ZWGq\
++LfEEn9kvfat4kv8AQNEub671m6s7OG/1TxG0UlsNTvtbEuqX+oLc3ou77TZ9OvJ8c5qRp8PZuvZKU6\
+/1enzNfDH20ars3B2cnSitJwbSek1zcv5D4qc9biPw4w/t3TpUK2aYtwTaVSdLA/VY8yVWN1CONqNXp\
+VYp2vKlJw5/raiiivyw8s888V6bH4p+IH7P/wAOdSvtdtPCvxM+K2veGvGcPhrxJ4h8Ga3qWiaJ8B/j\
+V8RdOsrLxd4Q1Ox1fw/t8XeBvDFxJJp19aTXENhJY3Ekun3d5a3FBfht8O/ht+018XdI+FvhnRdB0C2\
++Df7Pmk+KbvRE+13WqfEy28SfH7Xdel8feJJZJrzxP8VJfBvij4d6nq17rN1da9eWfinSdT1GeZNRtb\
+ifp7K1n1v9ov8AZf0jTI/tOoeG/GXxL+KmtW+5IfsXgLQfgh8Rfhbq2vebcMiXPleO/jX8MrH7LE0l7\
+J/wkv2qK3ezstQuLSvb/wDJef2vP+y5+DP/AFlD9mevjJV61bxCp4SOMmsLhMndZ0VN+z9tLGOnzSp3\
+5VN05wfM1zOKhry2PtYU6dHgKtXeGj7fFY9U/aOKU/ZxpxnpO13FSg1a9k3Lrc7Oiiivsz4o+VP22dR\
+vrL9mb4qWelWunXur634cv9L0y11SPwrd21xcR2dxq80EWk+LZhFrmoyWGlXkdnaWkF5qMl3LA1nbF4\
+zND3VpY2Vj/wAE2f2Y9LsbO1s9M8aWf7Bmm+MdOtbeG3sPFmnfGD42/Aez+LWn+JrSFBHr1l4ptPGPi\
+6LxHFdLLHrcfinUk1Nbpb66Evz7/wAFIdTi0r9l/wARz3UNjLYXms2Gh3r3l7plhNYjxJp2s+HtP1ax\
+mvNIvrqZ7LWdU0y7u7fSrZtRu9Nsr61SW3tprq5i+2vjB4OXwR8Dv2Xf2drfWL3X9aufiv8AsweBdD8\
+VatGIItSb9nHUtH/aD8T6z4jZJ5pbS61HwB+zv4vitRCl35mt6xp1tcPb2Ut1qVp+lZJGlDh3CQhVXt\
+qlSvUlBO9/aONGDlr7sl9Xso8tnGakndyS6PDmlja3GXHOMqYNvB0sNl+CpV5RjFqcYTxMqVN8t6kKr\
+xicpKT5alJwmkvZN/RNdn+wP/ybvdf9nG/tr/8AraPx/rjK9T/YP/5Md/Yz/wCzUv2d/wD1UPg+vdj/\
+AB4f4J/nA/fo/wC8U/8ABP8A9Kpn1bRRRXSdQUUUUAFFFFABRRRQAUUUUAFeffFr4kaH8GvhV8TPi/4\
+ntNWv/DXwq+H3jP4keIbHQYLO61y80PwN4c1LxPq1po1tqF9a29xq0lhpdwltHPc20LzOiyzwoWkX0G\
+vlL9vD/kx39sz/ALNS/aI/9VD4wqKknGnOS3im/uRnVk4UqklvGLa9Umzmf2dfh5rXwj/Z9+BXwo8SX\
+Wl3viL4Y/Bz4Y/DzX73Q57u50W71rwX4J0Tw3ql1pFzf2VtPcaXJfabO9u81tbyvE6NJBE5aNfLPhH/\
+AMlZ/bJ/7OM8Kf8ArIf7K9fW1fIv7PjnWrf40fEG6xHrPxA/aQ+Nqaza2+U0y2HwZ8XT/sxeF/7MhkL\
+ywmfwF8CvCN3f+bNN5ur6jqVxb/ZbKa10+z82yi6UF9m7+SXL+qPIjFKpQhH7F38lHl/OSPTviT470j\
+4XfDrx98TfEFtqV5oPw68FeKfHet2mjw2txq91pHhHQ7/xBqVtpVve3lvDPqT2enzLAk1xBE0rKsk0S\
+Euv5zfsrWN3YfAfwFFdXqXimxuvsUcU2i3UNjp0GoXVlY2v2zR4g17fNb2qXF/LfzXWqvqV9enUZ/tO\
++KL7Z/aighuf2Z/2iba5s/7Qt7j4FfFyC4sN1+n26GXwB4gjls9+lWs90nmxsyZtoZrgb8wxSSbUPzP\
+8JNMfSfhn4ItZW05rmXw7p2p3p0e28M2mkjUNaiGsagulxeDrODTH04X1/cCCW0RkmiCzNNcySPcS8f\
+ElWNPhetSfsnPFY7CuN1etGNGhjOfkbhaNObrU+dxmpOUIprlev4b4iqriPE7g5L6zDD5VkedylyySw\
+lSpjcfkcaSqKNVSnXpRwNZ01Oi6ahVnKE+dNR9Eooor8wIMz4Z/8ngfDT/s2z9pL/1aH7JVcX4DvZfE\
+fiH45eO75Y4tX8ZftD/GCy1O2tQyabBF8HPE8v7OHhhrCGZ3likn8D/BbwtdX5kmlEuq3+oT24tbOW2\
+sbX1D9nSGK9/ac+NM95FHdz+G/gR8A4fDs1yizy6DF42+IH7RL+MotFklBOlx6u/gDwIdTWAxi/PgrS\
+DdCU6bZ+T438E7qDVvBWpeKtPk+0aD8Qvil8dPip4Qv9rxf2v4C+LHxu+IfxK+H+vfZZ1Waw/tDwV4q\
+0G9+y3UcF7a/b/s17b213FNBH8JltqviDxNUVJ82CweDoudtP30Y4jlvsuZcuj1bptrRH3OZc1HgXIK\
+XtVbFYmvU5erUXUje275W9WtFzJPc9booor7s+GPzM/4KmagIvgANLlhvZ4r65ur23WzuPDlysGp6bc\
+aRHDeXvhrVNMlvtWsk0rUNbja9srqzi0d7tL64+03K6fAf1N/aU/5H79jb/s5jxH/AOsg/tW1+bv7Wm\
+nTa1+0R+w1FBHqhXQP2ofgxq15qU95o6eFNDtbvxfK8dreQWunyajBr+r3ehQ21jJe3FvYTy6Utrp8d\
+xcvqMlp+i/xP/5O4+AX/ZuX7V//AKsz9jOv1XA0pwyXIE6SpwVBe8pSftJSxuIrObTm1FqnVpU2lCGt\
+Ntud1I7/AAjVGeY+JOJjjniauIznCL2TpQh9Wp0Muy/Dxp+0jTjKqqlajiK6c6tXkjVSSp6xLPx68d6\
+v8LfgZ8aPib4fttNvNe+HXwn+IvjvRLTWYbq40i61fwj4P1jxBpttqtvZXlvNPpr3unwrOkNxBK0TMs\
+c0TkOv6L/CX4b6H8GvhV8M/hB4Yu9Wv/DXwq+H3gz4b+Hr7Xp7O61y80PwN4c03wxpN3rVzp9ja29xq\
+0lhpdu9zJBbW0LzO7RQQoVjX8t/2uoZb39ln9ojRbOKS71nxV8GfiL4I8L6TbI0+p+JPGfjrwrqfg/w\
+T4R0GwiBl1jxPrHi3XNF0vSrC3SS71DUdXtbG0imubiKJ/2Jr06etWd/sxjbyu5X+/lX3H7xT1r1L/Z\
+hG3lzOV/v5Y/cFFFFdB0hRRRQAUUUUAFFFFABRRRQAV8iftv/APJD9A/7Of8A2Gv/AFtv9nuvruvj39\
+sWb+19J/Z++Fu37P8A8LZ/am+EEP8Abu7zf7A/4UK3iD9sXd/ZmF/tX+1f+Gav+Ecx9otvsP8Awmn9r\
+5vP7O/su/xxDSo1f70Wl6y0X3to58U0sNXXWUXFeslypfNtLt30PUq+Qf2XyJ/hdqmqQkTaZ4l+N/7U\
+PjLw5qMRElhr/hDxt+018XfF3gzxVot4mY9V8N6v4U1rRtT0y+gaS1v9P1a2vbSWW2nilf6+r47/AGP\
+f+TSP2Wv+zc/gj/6rPwxXC/4sP8MvzgedH+PB/wByf/pUDiv289Q8UaZ+y745ufB19Np+uyeKfgzp6z\
+x3NraWsmlat8b/AIcaV4jsdbl1B1tH8L3Xhy91W21eK/P9nTaXd3kOpK1jJcKeF+HFvBafDzwHa20fk\
+21t4M8L29vD/a2n695UEOh2McUf9uaTFHa61tjVR9rtkS3ucedCixuoF/8A4KF+J4tM+CPh7wTPpCan\
+b/Fz4qeEfBNxcv450z4fDRrfw5YeIPjLPfDX9aha0L3EXwpfTVguXjhdtfDyLeLGdOvekryOLakY5Fl\
+lOLjKWIxmJcrP34+woYXl5oqWsZfWZcspR0cJqEneol+BcWuWI8W8fdzVPKeHctUbwfspSx+ZZu6nJU\
+lGynTjl9L2kac25Rq0nWiuWi2UUUV+dGxT+BHibwp4S+In7Unxl8a+LfC3gX4e+FtO+A3wR13xB4117\
+TfDGm6d4r8J2vi74m3OoXeq6tcR2Np4eu9M/ab+HdhYyzXUdzPqtrqNq1pHGljcX/k37Oel6nof7Pfw\
+J0XWtOvtH1nR/g18MNL1bSdUtLjT9T0vU9P8EaHaX+najYXcaS2V9BdQyxTQyoskckTI6qykDrP+FX/\
+DT/hNf+Flf8K78C/8LF/6H/8A4RLQP+E1/wCQT/YH/I1f2f8Abv8AkBf6F/r/APj0/wBG/wBT8ldzXi\
+4DJ1gc1z3NpYp16ueSwzceRQjSjhqLpQinzSc2025TfLfT3FZt+5mOcRxuV5NllPDexhlMai5nPmdSd\
+WSlN25Vyq60V5b7hRRXHeKvH/hTwbPpOn63qNxJr3iH7f8A8Ix4Q8P6PrXi/wAe+Lf7JS3n1r/hD/h/\
+4S06+1vxb9gs7qK61D+zbC6+wWQe9vPItIpZk9mUoxjKUmoxim23okkrtt9Elq30R4sITqTjTpwdSpN\
+pKMU223sklq2+iR8MfGfw+nxB/wCChv7E/gyxv77RJIPENx40vfE1nKL21Gp/BO21D4qHwTJYQrAYLi\
++8MXN7a6gHvGkjtvHek3/2Y29u9rrH6ReJpf8AhJf2v7WDb9i/4Uv+zY8u7P2n/hJf+GnPifs27cR/2\
+N/Yn/DI+c5uv7S/4WD00/8Asn/iZfDlnp1z4s/4KU/s/wDiWy8LfEfS7TwXpHjiOOw8Y6Z4It9T/wCE\
+O1v4KeL2074j3Gk+H7q51/4ZeHpda1+ztb3wz4wtNI17Trn4k+E59VkjudVs/D2mfbq/8nj/ABq/7Nn\
+/AGVf/Vpftl1+n5VmeFzXLspqYPGrG4alh8JFJXtSlLB0cQ6Tv9uMqilJbwb9k7Kmor6bwmyl5blvEL\
+xGVrL8fis/zdV53i/rKw+LrU6NVODcFGMacYJQes4VJ1Uq9SshPj1/yLnwy/7Ot/Yi/wDWyvgPX621+\
+U3xAsovE/xI/ZW+HF+0kOh+Pv2mfCN7rF1ZlY9VtpfgV4I+Iv7VnhFdMnmSSGGO5+IfwB8HWWoiWCYz\
+aLqWp29sbO+mtdRsv1Zr26Ws6r6Llj81d/lJH7BR1qVmtlyx+avJ/hJBRRRW50BRRRQAUUUUAFFFFAB\
+RRRQAV8bftWf8lE/Yc/7Ot8T/APrFH7YlfZNfFHxf/wCT0P2cP+zYP2x//VrfsMVz4l2ov/FD/wBLic\
+uMdsPL/FD/ANLiW/2gPH2sfCr4D/Gz4oeHrbTbzX/hv8I/iR4+0Oz1qG6uNHu9Y8H+DdZ8Q6Zbatb2N\
+5bTz6bJe6dAs6Q3EErRO6xzROQ65/w28CaR8Lvh14B+GXh+51K80H4deCvC3gTRLvWJrW41e60jwjod\
+j4f0251W4srO3hn1J7PT4WneG3giaVmaOGJCEXlv2x2Wf9ln49eHoju1j4hfDTxL8I/CFngr/a/xC+M\
+tk3wp+G3h/wC0MBFYf2l4+8Y+G7D7XdPBY2f9o/ar+5tbKGe5i9drk/5ePyirfNu/32X3HDT1rTv9mM\
+bfNyv9/KvuPg/9vLTLXUtI/Zl+03er2TWf7VvgaWyudFht2vbfU734d/FfRdNvTdX+k31pZQ2t7qsN2\
+32u1kgujYDT8xy3kUqdRXkf7Y+majeftL/seX1tY3BsNN0X46PqfiBNQ1TRrbw6tx4o/Z0Sz+0avYwS\
+wRSapcR/2NHZ3sbwat/wkL6XG1tdXdve2vY+MPHngf4eaZBrXj/xn4U8DaNdX0Wl22reMPEWkeGdMuN\
+Tnt7q7h06C/1q8gimvntbK9lWFXMjR2krhSsbkfO8YpRw+R040HCU1iKjldv2jlOFO6V3blVFQ0UU3F\
++7dOc/59zStUxXiTxzKWI9ssDSynBwppK9JQwtTGct1CDvOWOlO0nVavf2vLKNGj1dFcRo+pfFbx6yw\
+/C34GePr2CSSS1Pi74w2Oo/s/eCNL1K1iF9d2Guad4+0U+OZI209oBaX+jeBNa0q4vtRgsn1CAQatPp\
+Wr4++Bf7QegfC34jfEq6+Jq3/jvwV4A8UeOPAPwb+C/w5s7zR/Eni7RvDupa/Y/DPxtrvja313W/ivp\
+s+s2GlaVa3fhex+HeqX0V3ezLaW13fWEOjfj+O4w4ay+tTw1fN6U8TVlGChSftZKUpKPvumpRp2vzS9\
+pKFoq+raT+vwXCPEGOpyq08vnRoxTfNV/dppK+kZWnK+y5YtX0vo7dFXGaFN8YPiTBDqPwd+EtvrXhW\
++tzqegfE/4l+PtI+Hnwx8ZaMjrbG78GTeGtM8U+KtU+0XUgl0y7uvCVhoOsaZay6xpmu3On3GjS6xzP\
+xK8V3svwsuNU+GviDTTr/wAQl8IeCvhR4vtJNO1nw5b+M/jN4g0L4ffC7xdc3Pk3dvf+EIPFXjLw7f3\
+k8VvfhtNgmlt7LUH8u0n/AE08GeEPDvw+8H+FPAPhDTv7I8J+CPDWheEPC+k/a76//svw74a0u10XRN\
+O+3apcz3N75Gm2VtF51xNNPJ5W+aWSRmc+B4gcYYvhehgKWXQp1Mbj3UbdSMpKnTpqKbSU4e9KU0o35\
+o2jO8U+VnscE8L4XPpYzEZhz/VcK4xjGEuXnnK7abs3aMUr2cXeS13Pk3R/2R/EWtssnxk+OninxLZi\
+SSG48IfBzR5PgJ4N1bT44hLp82qavY+JNd8dWPiGHVnaeS50Xx1o1jdQWFnY3GlPbHVBq/0V8N/gv8K\
+PhBFqa/DT4feFvB95r8emL4p13StKtx4r8a3OkLeCx1bx94wuFk1Xx94hEupapNLqWs3l9qFxc6td3V\
+xcy3N1cSyem0V/P+a8S59nV1meaVcTTla9PmUKWjun7GmoUr3Sd+S+i10Vv2jL8lyrK1bAYCnhn/Mo3\
+m9Lazleb07y792fmD4Y8L6/4c/4KN+K77xM0U1z4x+CHxZ8V6HdXd3Bd38nh0+Of2dPDOn2+lPomnWl\
+r/YsGm+GdIhmGo2lvqsN3EbNH1a2tJPEmu9v8LP+Sw/tnf8AZxvhH/1j79lOvOfEnxd+H3hL/goF8X9\
+S+Jvji7g134f/AAB+GXg34QfDjw7o114s8beLdG+K+var4u+Js3hf4Z+CPDmoeKviNeaZf/C7wpeTSa\
+Xa3aaNpuo6neaki2KpcWPW/s76zb+KLv4++LruHUdN8YeKvj/4i1Xxh4e1HRdZ8OyeH7G38C/DrRPgq\
+j6F4hsor7RtU1T9mPSPgZ4g1eyvGe8sdd8YapZXtvo95bz+H9I/tXwdzKtmnAHDuJxGEw+BqqePgqeG\
+U40/Z0cfjKNKTVSpUkqk6cYSqJSUFLmVKFOlGMI/C5bkeG4frYvL8LmGIzCFXF4jFOeLqQqVVUxN6ta\
+CcKdNKCrVKjgnFzlG85zqTcpv0uW1n1/9p79j/QtJj+16r4W8f/Fj4y69a7kg+wfDbwz+z18Uvg9rfi\
+Pz7lkjuvI+I37QHwj077HC8l/J/wAJb9rhtZLGw1O6sv1Fr80vh3/yfF8IP+zUv2sP/VvfsTV+ltfrF\
+Det/j/9sge7Q+LEf41/6bgFFFFbnQFFFFABRRRQAUUUUAFFFFABXw/4lmbxN+23qlvfhYU+CX7K/hKb\
+wobQGNtQb9qT4t+OU+IA8QmYyC7WzH7H3w0/sf7MLQ251zXftp1D7Tp/9mfcFfDFsy6h+2p+0Jqlgy3\
+2maX+z3+yj4F1PUbMi5sdO8baP43/AGsfG2r+Dr67hLR2niq18GfEr4davc6fIy3cGl+PtEv5YVtNVs\
+ZZ+fE/DBdHJfgm1+KT+RyYz+HBdJTXzsnJfik/kc5+1v8A8km8P/8AZxn7HH/rXnwNr2KvGP2kmbUNc\
+/Zj8G3Z87w341/aR0lfE2m4Ef8Aaa/DT4RfGP48eCR9siCz2f2L4r/CT4far/o8sX2n/hH/ALDd/aNN\
+u76zufZ65I6zqPtZfNK/5SX4nFR1qVpdFyx+aTl91pr53+fw98evA1p8Vv2mPgD4TuNZ8a/D+78O+GP\
+iNfaJ8TfBB8MSaja6v4x0qV38G+T40+EPinSnlvdB+G+vXaw3b6X58Oh3NxBdvc6bFY331r8N/wBnz4\
+M/CXUZde8C/D/RdP8AGF3ptxouqfEXVjfeLvirr2j3N7a376T4m+K/jC8v/EnijTUm0/Skgg1HVLqK2\
+t9FsbW3SK1sbSGHldE8BaXrf7Q2o/Eya+143vgf4a6J4K0y20/VJbPw4b7xPrPiXWfEVprlvYxo2s6p\
+Fpdv4SuEsbyeW1to9Vs9QNj9qbT7yL6Or+IPFri3FZxns8spZzXxdHKJY7C4iCnUjh1WpZtmPsqVOm+\
+WHLQwUsLQqKNOMHiYYmqvaVK1XEV74Q4frZfmnGWb47AUKMs9zGjXwk406Pt3hKeTZTg3KvOnHmlOeL\
+wmKqU3UnUqrDSw8JOEacKFErN1rWtH8OaPq3iHxDq2m6DoGg6bf61rmua1f2ul6Po2j6Xay32p6tq2p\
+30scGnabbWUE8088zpFDFC8kjqikjlfiH8U/hj8I9FtfEnxX+I3gP4Y+Hb3VINDstf+Ifi/w/4L0W71\
+q5tL2/ttItdU8SajbQXGqSWOm6jMlukhleLT55FQpFIy/CX7W37Q+qeN/wBlf9pew+GPwO+MOtaDd/s\
+/fGWz1n4ifEnwtd/APwd4ZSP4deJLnxHb33hr4uw6b481nU4fDZ87TJdI8EajoGp6pqNlpM3iDTETXN\
+Q0L81y3KsTmGIwsFSlTw2Iqwpuq7QprmkotKpNxg5q+kObmb0SZ9picVTw9Oq+ZSq04uSgruWibV4xv\
+K3d2su54J8G/D19P4A/4J8/CrxRYaloR1rWvgVB4qsbq1m0zxLomsfA34Na9+0Lo+mNbahAf7Nuj8Qv\
+gh4bsNUhubZ5f7Nu9StYhaX0kF7afqp8SfjX8JfhANGj+JXxB8L+EdT8TjUU8G+GtS1SB/Gfj++0r7C\
+t3ofw48D2Zl1j4jeJzcarpFvBpWh2OoaldXes2Vna2s11eW0Mv5I2nw5+I3xY+Pv7PGh/Ej4gawixeI\
+/iJ8Sda+HHwX13X/hVpHg34feG/hP4y8HXHiO3+Lmh6jp/jXxH4usPiJ8X/hzoFze6XrXhyz13TPE4m\
+bwLZWsOtSxfqV8Ovgz8KvhKdZn+HPgHwz4V1TxQdPl8ZeJtP02GTxn4/wBQ0z7c9trvxH8b3gl1f4i+\
+J2uNV1e4n1XXL3UNSurvWLy7urqa6u7maX9R8WJ4Kef4GOIr1KvscJF+xpKCjzTrVrt1pOTpzcVBtew\
+mnGMLNc/NH4Pw8pV4ZLiJwhCP1jE1Hzvmd0oU1pC0eZJ80bqas772s+Jk+PfxR8Zf8kV/Z18UappjEX\
+Vn44/aC1+b9nDwXrOnwD7JqVppfhu78KeI/iPpfieLWX8mG28QfDvQdNvbXTL3UbXWXtW0Y63Rk+DPx\
+I8fYf47/HXxPrttbfLp3hP9npvHX7K/g2OeHJs/EWp6r4O+KOqeOdY8TiO81i2nt5PHSeE7i1mspG8J\
+rrGnRaxJ9IVXvLy00+0ur+/urexsbG3nvL29vJ4ra0s7S2iaa5urq5mZUt7eOFHd3dgqKhZiACa/L5Z\
+hDDRlPC0aeAjTTbq3cqqUdpurUb9nJK7lOhGgndtxUVFR+9WH52vbTlXb+ztDXdckbcy7Ko5tW3vdv8\
+1/2YfBnw28JftYftq2/wAG/AXhvwN8OtN079nXwXLbeB/Att4I8GJ8RfCunfFe88caLaW+maNZ2V14h\
+tLTxJ4WuL7yFdxBr+n3EjGK7tnk9f8Aj1bH4ca5on7StoBBoXgDw34j0T4+xwYE2ofAuKxvfFB8Yrpt\
+sIZPFPiTwT4r0+HU7CGa4nks/C/i/wCIVvoOlap4j1vT7K45L9kO7tNQ8T/tpX9hdW97Y337ZPi68sr\
+20mjubS8tLr4L/Aqe2urW5hZkuLaSGRHR0Yq6uGUkEGvb/EHxu8G6V4m1HwD4dtPF3xS+JOlPp9pqfw\
+9+EPg/X/iLr3hzVtfsre+8IaX8R9T8P2UmjfBJNbguon0rUvHWq+GdFubeG6v21OLTdO1K8tP7i8I3z\
++F/AmMni5Yqpm2XYbHyqSlz3qZhBY6cYSu3KlCeIlCinKUvYxhFyk7yfyeNUIYnFwSVFUq1SMUlazhU\
+lGOmmr5dUrX17ml+z1awa5+2H8Wr3VI/tV18MP2avg1a+Bpdzwf2HB8dvij8bpvirHst2RdT/tWT9nP\
+4NHN4LhrH/hDsaabMahqovv0Vr82f2EP2d/it8IfHXx18eeNvDUPw/wDh34+8O/C3wh8FPhfrmuaBrH\
+xP+HPhHwF42/aB8aar4U8cReANR1Pwlo/hqx1z40T6f4HsfDWtaha6d4I0TQdKvorLU9Pukl/Sav1LD\
+czpKUouEpOTae/xO1+u1kr9LKy2NMLzOipTg4Tm5Np7/E7XvZ/DZK6TskrLYKKKK3OgKKKKACiiigAo\
+oooAKKKKACvgz4Tf8lw/bp/7Of8ABf8A6xJ+x7X3nX5DfCz483lx4k/aQufBvwq+JvxD+Mfjv9qj442\
+2v6dB4P8AEvw8+Ceg2/wc8SL+yn4E8RT/ABs8e6LBod54ZHgP4F/DK48TweGL7xr4rj1jXdevNH8JXV\
+tY3GiaRyYqUV7JN68zf3Ra+bvJaf5HBj5xiqCbs+Zy9UoyWnVu8lovPsezfHRl1b4wfsm+GtPP2jW9G\
++JfxG+LmpWWDF9m+HvhT4DfE34V6/4g+0zhYZvs/j347fCqw+yRyPfS/wDCVfaobaSysdSuLP0Xxj41\
+8G/Dvw5qPjH4geLfDPgbwjo/2T+1vFPjHXtK8M+HNL/tC/tdLsP7R1zWruC1svP1O9sraHzZV82e7ih\
+TdJIin4Y8daF+0T48/ah+C/8Awm/xN0f4HXVz8BP2lb/RNI/Z707QPG2t+HbbT/iF+yhp+saL4i+KHx\
+4+H2oad8Q9L1Sa40jU4msvh74RvdHls/7M+2avAkt9e/QHhH9nP4NeDfEeneNbPwe3iT4gaMLuLQviZ\
+8TvEfiv4x/FPw9YX1jdaddaH4c+KHxa13W/EHh7wy1pqGrAaXZalBpyvruoyparNqN89xxwlNyq8sbJ\
+yWr0+zHpv52fL0Xe3HRlNutyQsnPeTt9iGyV29NbPley3vblvAv7SY8Q6r8Tovgd8KfiN8aTqfjy0ks\
+vGNtYWfw2+D1kl98Nvh5YeF/El98SfiZcaa/jT4d6hNZXl4NY+HmlePZk0W2j1eDTbyDVfDket9zJ8P\
+8A9oD4gZf4ofHQeBdCudzzfDv9nHw5beE2l0nWOdc8F+MvjP49Ot+IfEptrNYrHTvE/gq1+FOsr519q\
+sVvYX1xpcegegfC1Bcab4p158i88Q/EHxm97GnFtEfCWrSfDfTvsqEFkD6H4I0qWfe77ru4uJI/LheO\
+CL02v85swzOhWzfiDH5fhYU6WaZnmeMp1KkVVqzp4zH4nFU5tVE4UW41VKMadONSkmqc6tWUHUn9zDD\
+ydOjGvVc3CEIuMW4QTjCMXpF80lprzSknq0knZeQeAPgH8IPhlrV14s8J+B9NXx9qWmTaJrXxT8SXOq\
+eOvjF4l0aa6srsaR4t+MXjm/1LxR4t0yJtL0aK2t9T1e7itbXQdPs7ZIrTT7KGDzL9te7uIv2c/FWkp\
+Jt0/wAceMfgt8K/FFvsQ/2p4D+L3xv+HPwu+ImheaVL2X9o+BPF/iKx+1W7Q3tp/aP2qxuLa8hguIuh\
++On7Qvgr4XfDn4h65p/j34d6d4s8PaFrlnol34x1Kc/D/QfiDIj6N4N0v4p69pM6ReCtGuvGl1pVlK2\
+oXmnNJvnjgmWWJ2j/AJcP2hP22f2vv2qfEOo/Azw14v8AFfxI8YXvi7SNX8PfD/8AZO8NLbfDvTvEfw\
+zVNbTVPBOu6TY6t4w+NWlImjXuuiY6jFpulatoaa3YJqlhZaVLbeJlfFeGq8SZLOkqvEdWnjcPGo6T9\
+tQh7OtSc6eJxcm8PQajKNqNSftqnPCnQo1qtWlSn4PFGaUMky6vhpUZUKuOo1I0uXkppTnGUINLmVRt\
+zcYp0qc2pNN8sVKUf2M8SftN/Az9mz9qP4X+JPjT4/svB2lT/AL466GDHpPiLxPqMWoeJviH+ztf+Hh\
+d6J4P0fUL6xsry28C+MPs91Nbx2ssnh26hWYzRlK+zbL9un9nO5+FXhX4u6h4ufwn4e8W3D6PaWfxAj\
+sfh3daR4ysrjWLTXfh54l1zxxqOn6DoHjzTp/DniL7Rp1xrCvPFoz3Wmtf2lxYz3f8+37K/wDwRd/4K\
+G+NPs+t61qWmfsr+F/EP/CC6hqWu+KPEbRfFG/8Ja19rudTh0Lw74GWfU9I1PT9Mljn1Hw5rs/g1rnU\
+X023vJVu9PluNN/cv9kz/gir8Bf2abW61HW/il8ZPiH411vSJtI8Sa54Z8Xaz8CLO5jh1251LRzoOrf\
+CnWLXxroenRadLDBfaPL45vvD+sXkEWq6hpEt5pvh46H+zVPDjxK8TOKfr2JwVPg3hypCNN4qdGpXrq\
+MKUuf2dPFTwM1V9v7uGrxwuLwlWjbE1FG8cPU+T4Nx+dYDC4fB1Mr9pgkqrbqJ0OSpKalF80pzqYiD1\
+SUKGHST5vay0T8o8Wf8FCdc8WeJtT+HPwX+FvxC1PxlpYt5Na0WLwZ45b4i+D4bizsvEEdx8R/hFD8L\
+9c+JHw40ZNBvvDqnxDYfCbxx4OvtQ8faTo0XibTriaXUbW/o37K3/BQf9oC9tdS+JeqeHf2dNFa8WaW\
+HxPqujeOviB4eu7kprHiTTYdI8F+LvFUPizw3cxx6Vo2m+KPAPxD/AGevEdjdtquvr4YthpvhewT9tP\
+BHgPwN8MvC+l+B/hv4M8KfD7wXon23+xvCHgjw7pHhPwvpH9pajd6vqP8AZegaDZ29pYfaNWv766n8q\
+FPNuL2aeTdLI7N1dftfD/0cvDXKalLFZxgKvGmY0pKSq5xOOLpxaSUXDAxp0cspShZONWhgaNZy9+U5\
+TUZR+xqYzMa6cZ4t4anLeGHTpLXeLqXlXkntrUSs3ZK9l+f/AMOf+CePww8OaY1p8TPG/wASPi+dQn0\
+7VvEHhy98RXXw++Geu66dG0rQ/FI8W+EPh5NYah8ePDer6VoWgadd2vxj174o6lcaPoMGn6lrWpNea5\
+dax9q+CPAfgb4ZeF9L8D/DfwZ4U+H3gvRPtv8AY3hDwR4d0jwn4X0j+0tRu9X1H+y9A0Gzt7Sw+0atf\
+311P5UKebcXs08m6WR2bq6K/ccLg8JgaNHD4PDQwtDDwjThCnFRjCEUoxhFJJRhGKUYxWkUkkkkjmhS\
+pwblGC55XvJ6yd3d3k7yfzbCiiiuk0CiiigAooooAKKKKACiiigAooooAK+Hvjloq/Bn4paR8cdLG3w\
+T8ZPE/wAM/hF8a9L2x2uneHvF2p3GqeCvg18Z9OtdOIm1jxXq/jLX/h18OPECvZahd3ul3/gnUJNT0L\
+QPh/qMWqfcNZOvaDofirQ9a8MeJ9G0nxH4a8R6TqOg+IfD2vadZ6xoevaHrFnNp+raNrWk6hDJb6ppN\
+1YXFxBc208ckM8M7xSoyMynOrT9pG17Nap9n/l0fk2ZVqSq03G9pLWL7NbfLo/Jvbc/NO2Jvv2v/igL\
+0m8Hhj9m34BHw0Lo/aB4ePjv4n/tLDxudDEuf7JOsj4dfD7+1fs/l/2j/wAIJo32vzv7LsfI96r458D\
+/AAg/bA+G3xl8b6Tb/B6++KdpH8KPhN8HPAXxy8efGbwVo3gnxZ4e+D3j/wDaI8R+HvFPxc8TR6hrfj\
+s+P734WfEzwDaa5fWXw7vINS+INprvkWum+FZLLXz9TaP+y38UfHbJN8f/AIzPaeHJkS7Pwo/Zxj8V/\
+Ca1jkvY3upvD/jL48L4pk8ZeNU0fU4dIOmax4SPwrOp/YL0+INDvNL1Y6Dp/BSjUaaVKSleV7qyWr6u\
+115x5tNkzzqEarhy+xkp80r3XKleTtdu11a2sebTZM+DPiB+2o/wC1O6+FS+BfEt745v/HfxK1DwloZ\
+8J6vFrvxLsb3xtqOs/YPhTZfEvUvA2hfFvxLJc+NPCVra6N4M8WeKPE15da7aWtn4buZZbxtM56w+H/\
+8AwUI/acQyy+Edf+GnhJIml0zU/GHjPSfh74f8ZwaVOtvKl/ZfFb9m/UNd0+4XWtQv1i0DxH+zZpM07\
+eEI/Emn/FCTTJNG0XU/2i+FnwH+DXwTj1j/AIVV8NfCPgnUPE6aV/wmfiTSNHtv+E0+IN7oy3/2HXPi\
+X46u1l1n4leKPP1bWLifVtevtR1O6u9avby6u5rq8uppfWq/Dsh+jX4e5dUWJz+niOM6+6p5lUVXBR3\
+9yOXU4UsBUhFO0JYnDV68Uo3rznzzn7lTHZlW0+srB0/5cOuWXletLmqvu+Vwi3tFJWf5R/DD/glV4F\
+0DWtH8U/FX4n+JPGviLw6t1pmiTeAIvFXgG+sfDD6TNYWGj6Z8Z/iH8RvHnxl8DrDdX+pyPZ+EPiv4Y\
+8N3NtO1jN4bMOo+J28R/o38N/hL8Kvg3od34Y+EHwz+H3wq8NX+rT69feHvhv4M8OeBtDvNcurOx0+5\
+1m70nwxptrb3GrSWGl6ZBJcvGZnh06CJnKQxqvoNFfvGCy/A5dQpYbAYSng8PQSjCFOKhGEVoowiklG\
+K6RVkuxx06FGk3KEPferk7ylr/ek2/wAQooorsNgooooAKKKKACiiigAooooAKKKKACiiigAooooAKK\
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA/9k='
+	$end 'DesignInfo'
+$end 'ProjectPreview'
